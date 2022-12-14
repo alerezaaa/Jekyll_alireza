@@ -32,6 +32,8 @@ pages.map(async x => {
 
   const Categories = x.properties.Category.select.name
 
+  const description = x.properties.Description.title
+
   const mathCheck = x.properties.Math.checkbox
   const mermaidCheck = x.properties.Mermaid.checkbox
   console.log(mathCheck);
@@ -43,13 +45,14 @@ pages.map(async x => {
     .join('\n')
   const pageContent =
 `---
+layout: post
 title: ${title}
 date: ${publishTime}
+description: ${description}
 tags:
 ${tags}
 categories: ${Categories}
-math: ${mathCheck}
-mermaid: ${mermaidCheck}
+giscus_comments: true
 ---
 ${content}
 `
