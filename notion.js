@@ -30,8 +30,7 @@ pages.map(async x => {
   //const createdTime = x.created_time
   const publishTime = x.properties.Published.date.start
 
-  const topCategories = x.properties.TopCategory.select.name
-  const subCategories = x.properties.SubCategory.select.name
+  const Categories = x.properties.Category.select.name
 
   const mathCheck = x.properties.Math.checkbox
   const mermaidCheck = x.properties.Mermaid.checkbox
@@ -48,7 +47,7 @@ title: ${title}
 date: ${publishTime}
 tags:
 ${tags}
-categories: [${topCategories}, ${subCategories}]
+categories: ${Categories}
 math: ${mathCheck}
 mermaid: ${mermaidCheck}
 ---
