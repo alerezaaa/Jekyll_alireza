@@ -36,7 +36,7 @@ pages.map(async x => {
 
   console.log(description);
 
-  const title = x.properties.Name.title[0].plain_text
+  const title = x.properties.Name.rich_text
   const filename = kebabCase(title)
   const tags = x.properties.Tags.multi_select
     .map(x => `  - ${x.name}`)
