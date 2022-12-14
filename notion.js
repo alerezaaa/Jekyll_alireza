@@ -32,9 +32,12 @@ pages.map(async x => {
 
   const Categories = x.properties.Category.select.name
 
-  const description = x.properties.Description.plain_text
+  const description = x.properties.Description
 
   console.log(description);
+  console.log(description.title);
+  console.log(description.plain_text);
+  console.log(description.title);
 
   const title = x.properties.Name.title[0].plain_text
   const filename = kebabCase(title)
