@@ -37,7 +37,7 @@ pages.map(async x => {
   console.log(x.properties.Description);
   console.log(x.properties.Description.rich_text);
   console.log(x.properties.Description.rich_text[0]);
-  console.log(x.properties.Description.title);
+  console.log(x.properties.Description.rich_text[0].plain_text);
 
 
   const title = x.properties.Name.title[0].plain_text
