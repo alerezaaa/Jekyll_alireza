@@ -2,7 +2,7 @@
 layout: post
 title: The Idea behind my blog
 date: 2022-11-24
-description: [object Object]
+description: undefined
 tags:
   - site
 categories: test
