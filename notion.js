@@ -34,7 +34,11 @@ pages.map(async x => {
 
   const description = x.properties.Description.rich_text.plain_text
 
-  console.log(description);
+  console.log(x.properties.Description);
+  console.log(x.properties.Description.rich_text);
+  console.log(x.properties.Description.rich_text.plain_text);
+  console.log(x.properties.Description.title);
+
 
   const title = x.properties.Name.title[0].plain_text
   const filename = kebabCase(title)
