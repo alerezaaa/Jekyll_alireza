@@ -32,7 +32,7 @@ pages.map(async x => {
 
   const Categories = x.properties.Category.select.name
 
-  const description = x.properties.Description
+  const description = x.properties.Description.rich_text.plain_text
 
   console.log(description);
   console.log(description.title);
