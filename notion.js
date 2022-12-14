@@ -34,9 +34,7 @@ pages.map(async x => {
 
   const description = x.properties.Description.title
 
-  const mathCheck = x.properties.Math.checkbox
-  const mermaidCheck = x.properties.Mermaid.checkbox
-  console.log(mathCheck);
+  console.log(description);
 
   const title = x.properties.Name.title[0].plain_text
   const filename = kebabCase(title)
