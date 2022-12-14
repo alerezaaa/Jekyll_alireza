@@ -1,11 +1,12 @@
 ---
+layout: post
 title: The Idea behind my blog
 date: 2022-11-24
+description: undefined
 tags:
   - site
 categories: test
-math: false
-mermaid: false
+giscus_comments: true
 ---
 
 > In the name of the God of Rainbow
