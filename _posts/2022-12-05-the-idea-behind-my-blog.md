@@ -30,6 +30,9 @@ Lets come back to the topic
 This is my first post in my personal website and I want to explain the idea behind my personal website and my blog
 
 
+☝️ My [website](https://alerezaa.ir) and [blog](https://blog.alerezaa.ir) are based on Jekyll framework while other ( [daily notes](https://live.alerezaa.ir) , [visit card](https://card.alerezaa.ir) and [Curriculum Vitae](https://cv.alerezaa.ir)) may based on other frameworks or change during times.
+
+
 ## Why pages.dev
 
 
@@ -70,13 +73,36 @@ The same thing is true about IaaS (Infrastructure as a Service) and PaaS (Platfo
 {% capture details %}
 - IaaS: In simple word, its like a VPS but based on cloud software and possibility to rent hourly.
 - PaaS: To know more search about Docker and Containers
+
+
 in summary:
 
 
-![](https://lh3.googleusercontent.com/I1IUtZ-xTWO0JHAV9Q4yismgXU4jjh_mCD8RsFg47auVdeKNeEl3YUKHx3vH8saEnwyf-BHl8jjmbGWWzJViq024uis01Sh48JPO99PT8Agw9R4BTnp-ufZZuklpNLZTaLrpXpxJAg=w2400)
+This picture show the parts that companies provide based on type of service (in IaaS, they provide you network and servers)
+
+
+![](https://lh3.googleusercontent.com/I1IUtZ-xTWO0JHAV9Q4yismgXU4jjh_mCD8RsFg47auVdeKNeEl3YUKHx3vH8saEnwyf-BHl8jjmbGWWzJViq024uis01Sh48JPO99PT8Agw9R4BTnp-ufZZuklpNLZTaLrpXpxJAg=w600)
 
 
 {% endcapture %}
 {% capture summary %}IaaS vs PaaS{% endcapture %}{% include toggle.html %}
+
+
+I just realized that there are several other great providers (Firebase (by Google), Layer0 and Netlify) and only Firebase & Layer0 can be competitor to Cloudflare Pages. But these two are kind of professional.
+
+
+I use Vercel and Github-Pages too but for other web pages ([card.alerezaa.ir](http://card.alerezaa.ir) and [life.alerezaa.ir](http://life.alerezaa.ir))
+
+
+## What is blog.alerezaa.ir
+
+
+I've created this blog to share whatever I've learned and share my knowledge. In some cases it can be my knowledge backup database because I share as much as I can. (think of you have bought a new laptop, you have a self written introduction)
+
+
+I have to note that I use digital note-taking applications like Obsidian, Anytype, Notion and some others; I named more commonly used ones. (a short introduction about how to [_create automated backup for Obsidian here_](https://blog.alerezaa.ir/posts/backup-obsidian-logseq/))
+
+
+Its not always about programming area or anything related to codes, but sometimes some information about a service or my experience about somehting.
 
 
