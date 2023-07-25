@@ -5,7 +5,7 @@ date: 2022-12-28T18:00:00.000+03:30
 description: Machine Learning Course introduced by Andrew Ng, offered by 
 tags:
   - course
-  - machine learning
+  - Machine Learning
   - Computer Science
   - mathematics
   - Matlab
