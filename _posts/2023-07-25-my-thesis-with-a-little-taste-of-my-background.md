@@ -20,6 +20,9 @@ Several days ago, I decided to create a new post here on my website to write sha
 First, I would like to share some terms of thoughts that going around in my mind.
 
 
+If you would like to read the main section → [#Thesis](#Thesis)
+
+
 ## My Background
 
 
@@ -65,13 +68,40 @@ My professor had a project which was not even close to my background or field of
 ## Thesis
 
 
-Developing a machine learning algorithm to enhance image reconstruction in Electrical Capacitance Tomography (case study: bulk solid flow measurement)
+_**Developing a machine learning algorithm to enhance image reconstruction in Electrical Capacitance Tomography (case study: bulk solid flow measurement)**_
 
 
 I had a mixture feeling at first days but a little after, I end up with this idea: “I’m working on Machine Learning subject, professor said he will help me with ECT fundamentals (cause it takes lots of month to learn) and I have little interaction with ECT part”
 
 
 So, I started to expand my knowledge about Machine Learning. We had a course which taught by Prof. Mahmoud Omid, I really enjoyed that lecture.
+
+
+I knew about ML and I had some small information about it, but, by taking that course, I got familiar with machine learning concepts and worked practically on it. It was a set small, in-class homeworks, but useful for acquiring knowledge.
+
+
+Due to coronavirus lock down, I couldn't get into university (dormitory) till start of 4th semester and soon after, I submited my proposal because I had to submit it, but the fact is, due to some problem with the instrument which I use its data, I had to wait a little bit.
+
+
+It was a good rime to expand my knowledge about ML, Python programming and Cybersecurity.
+
+
+I requested for financial aid of Coursera on Machine Learning course by Andrew Ng, and thankfully, I could get it. (Certification in my [CV](https://cv.alerezaa.ir/))
+
+
+First, in March 31th, my supervisor sent a database of data. 56 set of data. I started working on that. I use `scikit-learn` to work on data. `LogisticRegression` , `LogisticRegressionCV` , `SVM` and `k-nearest neighbot` models are used to train a model for enhancement, but, as I expected, they did not work properly because numbers are not seperatable linearly or based on any classical ML model.
+
+
+WRITE ABOUT CODES AND HYPERPARAMETERS OF MODELS
+
+
+After that, I talked to my supervisor and they said, they will send a simulator which matches the real instrument.
+
+
+IMAGE OF SIMULATOR
+
+
+ I dont like 
 
 
 … will be continued
