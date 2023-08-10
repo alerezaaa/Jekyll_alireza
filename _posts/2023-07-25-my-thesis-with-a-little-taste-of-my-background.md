@@ -92,13 +92,22 @@ I requested for financial aid of Coursera on Machine Learning course by Andrew N
 First, in March 31th, my supervisor sent a database of data. 56 set of data. I started working on that. I use `scikit-learn` to work on data. `LogisticRegression` , `LogisticRegressionCV` , `SVM` and `k-nearest neighbot` models are used to train a model for enhancement, but, as I expected, they did not work properly because numbers are not seperatable linearly or based on any classical ML model.
 
 
+### Classic Machine Learning models
+
+
 WRITE ABOUT CODES AND HYPERPARAMETERS OF MODELS
 
 
 After that, I talked to my supervisor and they said, they will send a simulator which matches the real instrument.
 
 
-IMAGE OF SIMULATOR
+An image of mentioned software.
+
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230810%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230810T142401Z&X-Amz-Expires=3600&X-Amz-Signature=ef991b270bf028a33cf25b901291aff150fcad11072039519f52dbea6c53b555&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+
+(not related to me, but) this software is written in `C#` (why? because my supervisor decided to use `C#` for development), I did not even see its code (or any code from my supervisor)
 
 
  I dont like 
