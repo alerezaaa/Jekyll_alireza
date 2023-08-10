@@ -92,10 +92,64 @@ I requested for financial aid of Coursera on Machine Learning course by Andrew N
 First, in March 31th, my supervisor sent a database of data. 56 set of data. I started working on that. I use `scikit-learn` to work on data. `LogisticRegression` , `LogisticRegressionCV` , `SVM` and `k-nearest neighbot` models are used to train a model for enhancement, but, as I expected, they did not work properly because numbers are not seperatable linearly or based on any classical ML model.
 
 
+There are two pair of data:
+
+- Simulator ↔ LBP (Linear Back Projection)
+- Simulator ↔ TekhonoV
+
+These two reconstruction methods are among fastest with lower computational cost.
+
+
 ### Classic Machine Learning models
 
 
+NOTE: I include only some key sections in my writing.
+
+
+#### Logistic Regression
+
+
+Its the simplest model any starter can involve with.
+
+
+No regularization, No tweak.
+
+
+```python
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import cross_validate
+
+scoring_method = ['neg_root_mean_squared_error', 'r2']
+model = LogisticRegression()
+lr_noparam_cv_result = cross_validate(model, 
+                        X, y,
+                        scoring=scoring_method ,
+                        cv=10, return_estimator=True)
+```
+
+
+result was:
+
+
+```text
+For LBP:
+'test_neg_root_mean_squared_error': array([-0.42988679, -0.43964373, -0.38889035, -0.40696627, -0.37984266,
+        -0.37347476, -0.40294122, -0.40522419, -0.3484282 , -0.22566016]),
+ 'test_r2': array([-0.2081578 , -0.26362213,  0.01128803, -0.08276019,  0.05560606,
+         0.08700535, -0.0627451 , -0.0732062 ,  0.20655092,  0.66718549])}
+
+For Tkh:
+'test_neg_root_mean_squared_error': array([-0.4520538 , -0.45853519, -0.40378146, -0.40877501, -0.36396748,
+        -0.35937625, -0.39038254, -0.39414535, -0.34523643, -0.26961774]),
+ 'test_r2': array([-0.33596691, -0.37455079, -0.06587974, -0.09240616,  0.13289661,
+         0.15463458,  0.00246881, -0.01532541,  0.22102112,  0.52489523])}
+```
+
+
 WRITE ABOUT CODES AND HYPERPARAMETERS OF MODELS
+
+
+### Get ready for CNN
 
 
 After that, I talked to my supervisor and they said, they will send a simulator which matches the real instrument.
@@ -104,7 +158,7 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230810%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230810T142401Z&X-Amz-Expires=3600&X-Amz-Signature=ef991b270bf028a33cf25b901291aff150fcad11072039519f52dbea6c53b555&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230810%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230810T144437Z&X-Amz-Expires=3600&X-Amz-Signature=eb98aa2f635ea4eb932ad557f3e7c43609f72ba1ba6b043eeb72bbe8cd920b44&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 (not related to me, but) this software is written in `C#` (why? because my supervisor decided to use `C#` for development), I did not even see its code (or any code from my supervisor)
