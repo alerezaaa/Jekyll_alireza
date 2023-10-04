@@ -27,6 +27,7 @@ I'm a
 - Bachelor graduated from [University of Tabriz](https://tabrizu.ac.ir/en) in Biosystems Engineering
 - Linux, coding, cyber security and machine learning enthuasiast
 
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 I have several website which I dedicate for different writting stuffs:
 - [Live](https://live.alerezaa.ir): Write here sometimes based on emotions and motivations
 - [Blog](https://blog.alerezaa.ir/): Write My knowledge aquired by research based on my questions or experiences
