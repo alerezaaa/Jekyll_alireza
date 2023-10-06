@@ -8,7 +8,7 @@ middle_name:
 last_name: Dehghanzadeh
 email: adehghanzadeh@ut.ac.ir
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  dont know what to change . A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  dont know what to change . A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) theme.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a>.
