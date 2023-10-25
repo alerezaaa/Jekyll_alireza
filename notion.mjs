@@ -29,7 +29,7 @@ const pages = response
   .filter(x => x.properties.Name.title.length > 0)
 
 pages.map(async x => {
-  const mdBlocks = await n2m.pageToMarkdown(x.id, 2)
+  const mdBlocks = await n2m.pageToMarkdown(x.id)
   const content = n2m.toMarkdownString(mdBlocks)
   const createdDate = x.created_time.split('T')[0]
   //const createdTime = x.created_time
