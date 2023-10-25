@@ -16,7 +16,7 @@ const response = await notion.databases.query({
 const n2m = new NotionToMarkdown({ 
   notionClient: notion,
     config:{
-     parseChildPages:false, // default: parseChildPages
+     parseChildPages:true, // default: parseChildPages
   }
  });
 
