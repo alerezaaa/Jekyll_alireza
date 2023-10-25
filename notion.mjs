@@ -13,7 +13,12 @@ const response = await notion.databases.query({
   database_id: process.env.NOTION_DATABASE_ID,
 })
 
-const n2m = new NotionToMarkdown({ notionClient: notion})
+const n2m = new NotionToMarkdown({ 
+  notionClient: notion,
+    config:{
+     parseChildPages:true, // default: parseChildPages
+  }
+ });
 
 const kebabCase = str => str
         .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
