@@ -30,7 +30,13 @@ Lets come back to the topic
 This is my first post in my personal website and I want to explain the idea behind my personal website and my blog
 
 
-☝️ My [website](https://alerezaa.ir) and [blog](https://blog.alerezaa.ir) are based on Jekyll framework while other ( [daily notes](https://live.alerezaa.ir) , [visit card](https://card.alerezaa.ir) and [Curriculum Vitae](https://cv.alerezaa.ir)) may based on other frameworks or change during times.
+☝️ My [website](https://alerezaa.ir/) and [blog](https://blog.alerezaa.ir/) are based on Jekyll framework while other ( [daily notes](https://live.alerezaa.ir/) , [visit card](https://card.alerezaa.ir/) and [Curriculum Vitae](https://cv.alerezaa.ir/)) may based on other frameworks or change during times.
+
+
+# Its 2 century
+
+
+Its 21 century and having a website became an important requirment for future career.
 
 
 ## Why pages.dev
@@ -67,7 +73,7 @@ Hmmmm, what is JAMstack?
 In addition, struggling with infrastructure (eg. pure Linux, webservers, blogging platforms like wordpress, unpredictable traffics and so on) is time consuming and I dont really like to deal with them again 😬 so, in JAMstack, everything is ready, you only have to focus on writing and and blog.
 
 
-The same thing is true about IaaS (Infrastructure as a Service) and PaaS (Platform as a Service) which I will create a small post about Docker later in my [Blog](https://blog.alerezaa.ir).
+The same thing is true about IaaS (Infrastructure as a Service) and PaaS (Platform as a Service) which I will create a small post about Docker later in my [Blog](https://blog.alerezaa.ir/).
 
 
 {% capture details %}
@@ -91,7 +97,7 @@ This picture show the parts that companies provide based on type of service (in 
 I just realized that there are several other great providers (Firebase (by Google), Layer0 and Netlify) and only Firebase & Layer0 can be competitor to Cloudflare Pages. But these two are kind of professional.
 
 
-I use Vercel and Github-Pages too but for other web pages ([card.alerezaa.ir](http://card.alerezaa.ir) and [life.alerezaa.ir](http://life.alerezaa.ir))
+I use Vercel and Github-Pages too but for other web pages ([card.alerezaa.ir](http://card.alerezaa.ir/) and [life.alerezaa.ir](http://life.alerezaa.ir/))
 
 
 ## What is blog.alerezaa.ir
@@ -104,5 +110,14 @@ I have to note that I use digital note-taking applications like Obsidian, Anytyp
 
 
 Its not always about programming area or anything related to codes, but sometimes some information about a service or my experience about somehting.
+
+
+## and some more
+
+
+[life.alerezaa.ir](http://life.alerezaa.ir/) → which I would like to dedicate to my time-to-time novels about me and my life
+
+
+[live.alerezaa.ir](http://live.alerezaa.ir/) → track me daily
 
 
