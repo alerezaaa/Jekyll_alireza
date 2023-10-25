@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@notionhq/client@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@notionhq/client/-/client-2.2.2.tgz#621eab5788fd1aca67d53454871bbf4122e651ba"
-  integrity sha512-L7TB+UyhnWTSv1ek7xzGr9+mS9o76qMKnZ8Ag8H2q6QgvywAiPOFcE3ulWI/1AnMewGVRqwb30agPHMVRY/K/w==
+"@notionhq/client@^2.2.13":
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/@notionhq/client/-/client-2.2.13.tgz#1ef1ff2da3fdab97f7cc0356f253a9a5122b106f"
+  integrity sha512-wJpEl30QUSy2K3/Q2c2knNiZlLXJ17JnQgaIiFbN68IMJy+2TE9fXLxvV1N/cMVs2+SpteAa6PlyrUgfGdlmDg==
   dependencies:
     "@types/node-fetch" "^2.5.10"
     node-fetch "^2.6.1"
@@ -40,10 +40,10 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
-dotenv@^16.0.3:
-  version "16.0.3"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
-  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+dotenv@^16.3.1:
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
 form-data@^3.0.0:
   version "3.0.1"
@@ -73,6 +73,13 @@ mime-types@^2.1.12:
   dependencies:
     mime-db "1.52.0"
 
+node-fetch@2:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-fetch@^2.6.1:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
@@ -80,12 +87,13 @@ node-fetch@^2.6.1:
   dependencies:
     whatwg-url "^5.0.0"
 
-notion-to-md@^2.5.5:
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/notion-to-md/-/notion-to-md-2.5.5.tgz#b022cd9d6f01125762b85e26e0a41ae15410bd12"
-  integrity sha512-EdzuNZpJyc+287ItRALOld90RkshWBDiSA0WThf75z98Y8cyynhu6Hg+h377eD5K4UOSQHy5K0SUV4vGdCxCiA==
+notion-to-md@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/notion-to-md/-/notion-to-md-3.1.1.tgz#4ffc08f7aa86e4a4511878f2bfe8e77ac46069bb"
+  integrity sha512-Zaa2P1B9Rx99bevFYTGuUMYbbfdHn2G1AZMsytYGDWIJjr6Ie1qp/8CorpwVUh1qrquES/V2PkEREqCuTu1zKA==
   dependencies:
     markdown-table "^2.0.0"
+    node-fetch "2"
 
 repeat-string@^1.0.0:
   version "1.6.1"
