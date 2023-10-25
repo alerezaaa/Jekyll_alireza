@@ -7,5 +7,5 @@
 		"dotenv": "^16.3.1",
 		"notion-to-md": "^3.1.1"
 	},
-	"type": "commonjs"
+	"type": "module"
 }
