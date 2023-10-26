@@ -5,7 +5,7 @@
 	"dependencies": {
 		"@notionhq/client": "2.2.2",
 		"dotenv": "16.0.3",
-		"notion-to-md": "2.5.5"
+		"notion-to-md": "2.6.0"
 	},
 	"type": "module"
 }
