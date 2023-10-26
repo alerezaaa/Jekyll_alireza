@@ -159,13 +159,13 @@ For Tkh:
 results in a Whisker-Box chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072606Z&X-Amz-Expires=3600&X-Amz-Signature=9596bdccfc11a64086ea3f2ac5e4656bf1fcadf04e4af4ed2280cb35365f91c6&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=b37a84d7875672dc9a1b9a589f466ed94dedb15cdf33869a659340c2f7044ce3&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 with `LogisticRegressionCV` function results were looks like this
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072606Z&X-Amz-Expires=3600&X-Amz-Signature=f63b6355574603fe384c7c07843b8e0f5e6bc04f17d6a388291646ee2f5caba8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=5ad1fc193f51ff1de847171dcfb6d24e152390ce233e9b46e164726ad729485d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### K-Nearest-Neighbor
@@ -174,7 +174,7 @@ with `LogisticRegressionCV` function results were looks like this
 After tunning model, results acquired as below:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072606Z&X-Amz-Expires=3600&X-Amz-Signature=c664bdddc8503ca44653ca870abbdec302dfc26b0abece77c1e7be32de5c2109&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=ad1324ffa0bb9b5a5530428caae3165176f25c7ea250acd246423abe891c0c7a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Histogram Gradient Boosting
@@ -183,7 +183,7 @@ After tunning model, results acquired as below:
 In this scenario, model tuning was not so effective and final results was as below chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072606Z&X-Amz-Expires=3600&X-Amz-Signature=cdf3d5169d2a01feaa0cc0c9dc3e0f6cc7e6eb21933aa88bc3a84a3692095af8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=5bde16c34618dc26bd9c3ff588eda9c11b870aec30aadf429f7aa25b2673748a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Conclusion on above models
@@ -201,7 +201,7 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072606Z&X-Amz-Expires=3600&X-Amz-Signature=1bccf6a0a9ad9826a62b50067b0ac89807818cf3fc00599d452db4f780c41d58&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=5d067798438c30c0bcdc0f91743fc85cd3d19ac266b2b761147397f8f641b44a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 (not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use `C#` for development), I did not even see its code (or any code from my supervisor)
