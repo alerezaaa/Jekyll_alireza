@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"start": "node notion.mjs"
+		"start": "node notion.js"
 	},
 	"dependencies": {
 		"@notionhq/client": "^2.2.2",
