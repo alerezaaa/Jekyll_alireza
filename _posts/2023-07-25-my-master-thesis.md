@@ -146,8 +146,8 @@ For Tkh:
 ```
 
 
-> In `Scikit-learn` negative $R^2$ is possible because as they mentioned “because the model can be arbitrarily worse”
-{: .prompt-info }
+> 💡 In `Scikit-learn` negative $R^2$ is possible because as they mentioned “because the model can be arbitrarily worse”
+
 
 
 results in a Whisker-Box chart:
