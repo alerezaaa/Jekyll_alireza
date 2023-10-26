@@ -146,20 +146,20 @@ For Tkh:
 ```
 
 
-> 💡 In `Scikit-learn` negative $R^2$ is possible because as they mentioned “because the model can be arbitrarily worse”
-
+> In `Scikit-learn` negative $R^2$ is possible because as they mentioned “because the model can be arbitrarily worse”
+{: .prompt-info }
 
 
 results in a Whisker-Box chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072328Z&X-Amz-Expires=3600&X-Amz-Signature=602843bd4ec512b6d4c8965609f11fbb57bc4a7b8d7883c82589f3ac5b341e7a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T083207Z&X-Amz-Expires=3600&X-Amz-Signature=40b6432ac7b67510c02dc65c9cfbc79beaeebd7c9d1caad4350870c1b6fdcea3&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 with `LogisticRegressionCV` function results were looks like this
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072328Z&X-Amz-Expires=3600&X-Amz-Signature=e008c5e2b0f621f0f72f845a97ac5478f2fbd68ee0a16a5e73965dcd777b8f93&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T083207Z&X-Amz-Expires=3600&X-Amz-Signature=11f8bab21d5001db305072e284445435ad8cb81d2e06b5d3740393132e0cac3a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### K-Nearest-Neighbor
@@ -168,7 +168,7 @@ with `LogisticRegressionCV` function results were looks like this
 After tunning model, results acquired as below:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072328Z&X-Amz-Expires=3600&X-Amz-Signature=debc09015364915308644887a924430ecc001a3efec4d9d115c55eee4b4787b6&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T083207Z&X-Amz-Expires=3600&X-Amz-Signature=22b593d6de86598b00bdc471fbbd0bafa0bd9d9cc34fac3ce02536e0bf4729bd&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Histogram Gradient Boosting
@@ -177,7 +177,7 @@ After tunning model, results acquired as below:
 In this scenario, model tuning was not so effective and final results was as below chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072328Z&X-Amz-Expires=3600&X-Amz-Signature=4ad25c08efe4b6756d6d558a1ab379f97fa47875a6ec7849788324526c6e6ed9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T083207Z&X-Amz-Expires=3600&X-Amz-Signature=5b00d867fcd65f151815f78a5e46460db8960bb70031e8b4bf73eddb3134d74b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Conclusion on above models
@@ -195,7 +195,7 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072328Z&X-Amz-Expires=3600&X-Amz-Signature=a6b93e2a1fba279f158a37dda35d04221327fdb411422cfa7fc69fda55d58053&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T083207Z&X-Amz-Expires=3600&X-Amz-Signature=a7ac9f60b59fd087ccf24cae4e2c071ada9d8488e0aa14fb41a70790ed483656&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 (not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use `C#` for development), I did not even see its code (or any code from my supervisor)
