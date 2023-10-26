@@ -10,7 +10,7 @@ on:
       - 'notion.js'
       - 'package.json'
       - '.github/workflows/notion-md-npm.yml'
-    branches: [ "npm-notion" ]
+    # branches: [ "npm-notion" ]
   #  pull_request:
   #    branches: [ "note" ]
     
