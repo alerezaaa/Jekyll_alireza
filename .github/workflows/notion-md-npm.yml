@@ -5,9 +5,13 @@ on:
 #  - cron: "*/30 * * * *"
   
   push:
-   branches: [ "npm-notion" ]
-#  pull_request:
-#    branches: [ "note" ]
+    paths:
+      - 'notion.js'
+      - 'package.json'
+      - '.github/workflows/notion-md-npm.yml'
+    branches: [ "npm-notion" ]
+  #  pull_request:
+  #    branches: [ "note" ]
     
   workflow_dispatch:
 
