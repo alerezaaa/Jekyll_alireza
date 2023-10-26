@@ -61,7 +61,7 @@ related_posts: false
 datatable: true
 #redirect: /assets/pdf/example_pdf.pdf
 ---
-${x.id}
+${n2m}
 `
   fs.writeFile(`./_posts/${createdDate}-${filename}.md`, pageContent, (err) => {
     console.log(err);
