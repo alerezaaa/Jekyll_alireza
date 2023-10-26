@@ -20,6 +20,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20.x
+      - name: remove caches
+        run: |
+          npm cache clean --force
+          yarn cache clean
       - name: Run a multi-line script
         run: |
           touch .env
