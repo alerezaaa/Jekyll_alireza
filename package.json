@@ -3,7 +3,7 @@
 		"start": "node notion.mjs"
 	},
 	"dependencies": {
-		"@notionhq/client": "^2.2.13",
+		"@notionhq/client": "^2.2.2",
 		"dotenv": "^16.3.1",
 		"notion-to-md": "^2.5.5"
 	},
