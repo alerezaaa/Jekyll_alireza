@@ -13,11 +13,5 @@ tags:
   - Coursera
 categories: learning
 giscus_comments: true
-toc:
-  sidebar: right
-featured: false
-related_posts: false
-datatable: true
-#redirect: /assets/pdf/example_pdf.pdf
 ---
 [object Object]
