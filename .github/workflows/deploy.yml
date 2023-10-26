@@ -4,6 +4,9 @@ on:
   push:
     paths-ignore:
       - 'notion.mjs'
+      - 'notion.js'
+      - 'package.json'
+      - '.github/workflows/notion-md-npm.yml'
     branches:
       - org-testing
       - cloudflare

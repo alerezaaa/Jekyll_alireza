@@ -6,6 +6,7 @@ on:
   
   push:
     paths:
+      - 'notion.mjs'
       - 'notion.js'
       - 'package.json'
       - '.github/workflows/notion-md-npm.yml'
