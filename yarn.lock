@@ -73,13 +73,6 @@ mime-types@^2.1.12:
   dependencies:
     mime-db "1.52.0"
 
-node-fetch@2:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
-  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
-  dependencies:
-    whatwg-url "^5.0.0"
-
 node-fetch@^2.6.1:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
@@ -87,13 +80,12 @@ node-fetch@^2.6.1:
   dependencies:
     whatwg-url "^5.0.0"
 
-notion-to-md@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/notion-to-md/-/notion-to-md-3.1.1.tgz#4ffc08f7aa86e4a4511878f2bfe8e77ac46069bb"
-  integrity sha512-Zaa2P1B9Rx99bevFYTGuUMYbbfdHn2G1AZMsytYGDWIJjr6Ie1qp/8CorpwVUh1qrquES/V2PkEREqCuTu1zKA==
+notion-to-md@^2.5.5:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/notion-to-md/-/notion-to-md-2.7.0.tgz#3813b1b4f1bef00bd78081389a9b3542b922c40f"
+  integrity sha512-KVn3nLjcfR1ApW9KC/YbNWOhOxocWE1Gsng/Ih6U+GxsV43dNVZuxxWuO4SRAFr68WFmNvmJexB+7bDYNJUIJQ==
   dependencies:
     markdown-table "^2.0.0"
-    node-fetch "2"
 
 repeat-string@^1.0.0:
   version "1.6.1"
