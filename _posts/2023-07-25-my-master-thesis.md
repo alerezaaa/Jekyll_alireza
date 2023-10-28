@@ -152,20 +152,20 @@ For Tkh:
 ```
 
 
-> 💡 In `Scikit-learn` negative $$R^2$$ is possible because as they mentioned “because the model can be arbitrarily worse”
+> In `Scikit-learn` negative $R^2$ is possible because as they mentioned “because the model can be arbitrarily worse”
 {: .prompt-info }
 
 
 results in a Whisker-Box chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=b37a84d7875672dc9a1b9a589f466ed94dedb15cdf33869a659340c2f7044ce3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T133253Z&X-Amz-Expires=3600&X-Amz-Signature=67d2200935335acae7af2ee44ea93a65b422fde9f6908d897161bf17e37c2576&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 with `LogisticRegressionCV` function results were looks like this
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=5ad1fc193f51ff1de847171dcfb6d24e152390ce233e9b46e164726ad729485d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T133253Z&X-Amz-Expires=3600&X-Amz-Signature=2af7d9cbf8b5142e844be7c246f74ddfbdeeb0894a34fbf28e4d97cab213b015&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### K-Nearest-Neighbor
@@ -174,7 +174,7 @@ with `LogisticRegressionCV` function results were looks like this
 After tunning model, results acquired as below:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=ad1324ffa0bb9b5a5530428caae3165176f25c7ea250acd246423abe891c0c7a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T133253Z&X-Amz-Expires=3600&X-Amz-Signature=5f67e824c6995689ca364be8355a4f20dfe1d0dcdce5665750509ad7ad0624ff&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Histogram Gradient Boosting
@@ -183,13 +183,40 @@ After tunning model, results acquired as below:
 In this scenario, model tuning was not so effective and final results was as below chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=5bde16c34618dc26bd9c3ff588eda9c11b870aec30aadf429f7aa25b2673748a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T133253Z&X-Amz-Expires=3600&X-Amz-Signature=0e811928f590e01e19f513e7008d1757e05bc0a814e9fec3c70199d637428a6f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Conclusion on above models
 
 
-These models have a large range of $R^2$ and based other tests, they showed very different results 
+These models have a large range of $R^2$ and based other tests, they showed very different results, by that I can conclude that generalization is not enough.
+
+
+### Multilayer Perceptron
+
+
+In this case, after testing different scenarios, I realized that different combination of “number of neurons in each layer” lead to different error results. so I tested different combinations based on a repeat rule.
+
+
+#### 2 layers
+
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/4e53e63c-bc47-410c-b8cf-2b9f375aebe2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T133253Z&X-Amz-Expires=3600&X-Amz-Signature=968bbc79c02f1128eec8b00bfc830c45341cd61a297f5d52f3e63a5153c9d9b7&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+
+Vertical column: layers and neurons (number on neurons in each layer)
+
+
+Horizontal columns: $R^2$ results
+
+
+results are good, and generalization is much better than previous models.
+
+
+#### 3 layers
+
+
+In three layers, same method repeated. Results were better and generalization was better, too.
 
 
 ### Get ready for CNN
@@ -201,7 +228,7 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231026%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231026T072650Z&X-Amz-Expires=3600&X-Amz-Signature=5d067798438c30c0bcdc0f91743fc85cd3d19ac266b2b761147397f8f641b44a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T133253Z&X-Amz-Expires=3600&X-Amz-Signature=bdbbc83fad78544c934550d35339c346e1101d4bbdaab67daa87627cb1cf65c8&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 (not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use `C#` for development), I did not even see its code (or any code from my supervisor)
