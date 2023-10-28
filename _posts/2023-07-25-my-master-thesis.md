@@ -158,7 +158,7 @@ For Tkh:
 
 results in a Whisker-Box chart:
 
-
+{% include figure.html path="https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=57d51484e182a471327c746dade4acf54b6ebe8110851822e5bcf864437eff98&X-Amz-SignedHeaders=host&x-id=GetObject" class="img-fluid rounded z-depth-1" zoomable=true %} 
 ![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231028%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231028T134700Z&X-Amz-Expires=3600&X-Amz-Signature=57d51484e182a471327c746dade4acf54b6ebe8110851822e5bcf864437eff98&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
