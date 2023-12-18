@@ -159,13 +159,13 @@ For Tkh:
 results in a Whisker-Box chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231030T055054Z&X-Amz-Expires=3600&X-Amz-Signature=88f1959b54a2438407f21804dea03068f485f0fd2cd4b33e2af4cd43f9dc89df&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/b93a340e-f847-4100-a2be-3006601d461c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231218T042818Z&X-Amz-Expires=3600&X-Amz-Signature=c2ae4263e961cc4a1853738044db524665441f559d41411c0ecdb06ff5112916&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 with `LogisticRegressionCV` function results were looks like this
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231030T055054Z&X-Amz-Expires=3600&X-Amz-Signature=ac1c505277153f72b913f6fe76426dee4b44a6b4b140a6ffd0fde067018d204c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/1d92f057-2d7f-4828-b53e-add1c223c5e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231218T042817Z&X-Amz-Expires=3600&X-Amz-Signature=fad6834693ccbb48702163414fe2d1a971dda0c4b2c168885174fa3dbce03cab&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### K-Nearest-Neighbor
@@ -174,7 +174,7 @@ with `LogisticRegressionCV` function results were looks like this
 After tunning model, results acquired as below:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231030T055054Z&X-Amz-Expires=3600&X-Amz-Signature=5532c1e1fcb6a768427054d1eb1a1a941c84e1a35e13592e42b6290e580149a8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/c787c505-ceca-4542-b681-764356d91668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231218T042818Z&X-Amz-Expires=3600&X-Amz-Signature=ae761ddbb423f2dd9eb47c75cabc0a1fa04f65317593dd6225a3a183971ceeb2&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Histogram Gradient Boosting
@@ -183,7 +183,7 @@ After tunning model, results acquired as below:
 In this scenario, model tuning was not so effective and final results was as below chart:
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231030T055054Z&X-Amz-Expires=3600&X-Amz-Signature=1475fb2fba6ba560c1dcec91703acdf956448319dcde3a6c6b348c2f2659bb71&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/de725fc7-8954-4600-8951-6841d382b4b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231218T042818Z&X-Amz-Expires=3600&X-Amz-Signature=5962bb285fb0a1781a051c7141fd8069830f9cfd1814eba0b868cdf8c71bb63c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### Conclusion on above models
@@ -201,7 +201,7 @@ In this case, after testing different scenarios, I realized that different combi
 #### 2 layers
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/4e53e63c-bc47-410c-b8cf-2b9f375aebe2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231030T055054Z&X-Amz-Expires=3600&X-Amz-Signature=c924da6d8ef0a0b784c63a0a785e829a4b66d27716c4fb895e7b21b455851e17&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/4e53e63c-bc47-410c-b8cf-2b9f375aebe2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231218T042818Z&X-Amz-Expires=3600&X-Amz-Signature=7b3582be56404f306c92fab1043cf8ab7b1ea0b23a40fcf08ca7f0627c400256&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 Vertical column: layers and neurons (number on neurons in each layer)
@@ -237,7 +237,7 @@ After that, I talked to my supervisor and they said, they will send a simulator 
 An image of mentioned software.
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20231030%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231030T055054Z&X-Amz-Expires=3600&X-Amz-Signature=6100b74c92427248b7048be3b595918441b87f8eaf3e9d8e9e32015a13a386ee&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/7d351b26-b47a-4bbb-a79f-df12e4cb1aad/f6d26606-cce0-49eb-8430-a174eb4de3f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20231218%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20231218T042818Z&X-Amz-Expires=3600&X-Amz-Signature=5d24a4bb4bad9b2957db95c396ec7f5971ab7ce2c1e5a18c28630070c73b8e83&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 (not related to me, but) this software is written in `C#` (why? because my supervisor had decided to use  for development), I did not even see its code (or any code from my supervisor)
