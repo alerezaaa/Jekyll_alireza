@@ -1,0 +1,37 @@
+name: Build Notion Posts
+
+on:
+#  schedule:
+#  - cron: "*/30 * * * *"
+  
+  push:
+    paths:
+      - 'notion.mjs'
+      - 'notion.js'
+      - 'package.json'
+      - '.github/workflows/notion-md-npm.yml'
+    # branches: [ "npm-notion" ]
+  #  pull_request:
+  #    branches: [ "note" ]
+    
+  workflow_dispatch:
+
+
+jobs:
+  build_posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+      - name: Run a multi-line script
+        run: |
+          touch .env
+          echo 'NOTION_TOKEN=${{ secrets.NOTION_TOKEN }}' >> .env
+          echo 'NOTION_DATABASE_ID=${{ secrets.NOTION_DATABASE_ID }}' >> .env
+          yarn
+          yarn start
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: build pages from notion

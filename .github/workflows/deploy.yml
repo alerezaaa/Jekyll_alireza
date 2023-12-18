@@ -2,17 +2,34 @@ name: deploy
 
 on:
   push:
+    paths-ignore:
+      - 'notion.mjs'
+      - 'notion.js'
+      - 'package.json'
+      - '.github/workflows/notion-md-npm.yml'
     branches:
-      - master
-      - main
+      - org-testing
+      - cloudflare
+      - github
+#     paths-ignore:
+#       - '.github/workflows/**'
+
   pull_request:
     branches:
-      - master
-      - main
+      - cloudflare
+      - org-testing
+      - github
+
+  workflow_run:
+    workflows: [Build Notion Posts]
+    types:
+      - completed
+
   workflow_dispatch:
 
 permissions:
   contents: write
+
 
 jobs:
   deploy:
@@ -35,6 +52,7 @@ jobs:
         value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |
+        sed -i "s/module/commonjs/g" $GITHUB_WORKSPACE/package.json
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
         npm install -g purgecss
@@ -46,4 +64,22 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
+        branch: testing
+###### master
 
+#     - name: Setup deploy options
+#       id: setup
+#       run: |
+#         git config --global user.name "GitHub Action"
+#         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
+#           echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
+#           echo "NO_PUSH=--no-push" >> $GITHUB_OUTPUT
+#         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
+#           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+#         fi
+#         echo "DEPLOY_BRANCH=testing" >> $GITHUB_OUTPUT
+#     - name: Deploy website 
+#       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
+#                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
+#                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
