@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alirezad.ir/sitemap.xml
+Sitemap: https://testing.alireza.pages.dev/sitemap.xml
