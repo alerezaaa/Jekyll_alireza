@@ -68,7 +68,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: "deploy"
+  group: "deploy beta"
   cancel-in-progress: true
 
 
