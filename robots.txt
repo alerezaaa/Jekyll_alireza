@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://alirezad.ir/sitemap.xml
+User-agent: * Disallow: Sitemap: https://alirezad.ir/sitemap.xml
