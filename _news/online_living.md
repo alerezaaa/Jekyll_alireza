@@ -5,6 +5,7 @@ date: 2024-03-30 10:11:00+0330
 inline: false
 related_posts: false
 ---
+_update on Jan 7th, 2025_: You can visit [this link](/links/) or [this link](https://links.alirezad.ir/) to check all of links
 
 _update on 2024-03-30_: my [Gallery](https://photo.alirezad.ir) is now online and its dedicated to my taken photos gallery
 
