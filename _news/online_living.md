@@ -29,7 +29,7 @@ I deployed my websites on different platforms! It was a test at first but now, t
 
 > ##### You can check [this link](https://bejamas.io/compare/netlify-vs-vercel-vs-cloudflare-pages-vs-firebase-vs-github-pages-vs-azure-static-web-apps-vs-aws-amplify/) to comapre different hosting services
 >
-> [bejamas](https://bejamas.io/compare) | a summary below
+> [bejamas](https://bejamas.io/compare)
 {: .block-tip }
 
 - **Cloudflare Pages** (`cf` subdomains) is based on Cloudflare CDN
