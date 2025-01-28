@@ -68,7 +68,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: "deploy beta"
+  group: "deploy stable"
   cancel-in-progress: true
 
 
@@ -120,7 +120,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
-          branch: testing
+          branch: cf-pages
 
 
 ### deploy to firebase
@@ -129,6 +129,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALIREZA_ACCA7 }}'
-          channelId: beta
-          expires: 10d
+          channelId: live
           projectId: alireza-acca7
