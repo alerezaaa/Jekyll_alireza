@@ -8,6 +8,7 @@ on:
       - github
     paths:
       - "assets/**"
+      - "_sass/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -36,6 +37,7 @@ on:
       - github
     paths:
       - "assets/**"
+      - "_sass/**"
       - "**.bib"
       - "**.html"
       - "**.js"
