@@ -105,6 +105,17 @@ ninja.data = [{
           window.open("https://youtu.be/egN-C9lx9DI", "_blank");
         
       },
+    },{id: "post-a-distill-style-blog-post",
+      
+        title: "a distill-style blog post",
+      
+      description: "an example of a distill-style blog post and main elements",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2021/distill/";
+        
+      },
     },{id: "news-giscus-now-works-properly-and-you-can-comment-on-posts",
           title: 'Giscus now works properly and you can comment on posts',
           description: "",
