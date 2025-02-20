@@ -251,6 +251,7 @@ exclude:
   - _news/announcement_*.md
   - _pages/profiles.md
   - _pages/repositories.md
+  - _posts/2018-12-22-distill.md
 keep_files:
   - CNAME
   - .nojekyll
