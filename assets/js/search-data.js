@@ -35,42 +35,49 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://links.alirezad.ir";
               },
             },{id: "dropdown-lt-i-class-quot-fa-solid-fa-laptop-code-quot-gt-lt-i-gt-blog-of-my-computer-world-lt-i-class-quot-fa-solid-fa-up-right-from-square-quot-gt-lt-i-gt",
               title: "&lt;i class=&quot;fa-solid fa-laptop-code&quot;&gt;&lt;/i&gt; Blog of my computer world &lt;i class=&quot;fa-solid fa-up-right-from-square&quot;&gt;&lt;/i&gt;",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://blog.alirezad.ir";
               },
             },{id: "dropdown-lt-i-class-quot-fa-regular-fa-address-card-quot-gt-lt-i-gt-single-page-cv-lt-i-class-quot-fa-solid-fa-up-right-from-square-quot-gt-lt-i-gt",
               title: "&lt;i class=&quot;fa-regular fa-address-card&quot;&gt;&lt;/i&gt; Single-page CV &lt;i class=&quot;fa-solid fa-up-right-from-square&quot;&gt;&lt;/i&gt;",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://cv.alirezad.ir";
               },
             },{id: "dropdown-lt-i-class-quot-fa-regular-fa-images-quot-gt-lt-i-gt-my-photos-gallery-lt-i-class-quot-fa-solid-fa-up-right-from-square-quot-gt-lt-i-gt",
               title: "&lt;i class=&quot;fa-regular fa-images&quot;&gt;&lt;/i&gt; My photos gallery &lt;i class=&quot;fa-solid fa-up-right-from-square&quot;&gt;&lt;/i&gt;",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://photo.alirezad.ir";
               },
             },{id: "dropdown-lt-i-class-quot-fa-regular-fa-comment-dots-quot-gt-lt-i-gt-persian-personal-blog-lt-i-class-quot-fa-solid-fa-up-right-from-square-quot-gt-lt-i-gt",
               title: "&lt;i class=&quot;fa-regular fa-comment-dots&quot;&gt;&lt;/i&gt; Persian personal blog &lt;i class=&quot;fa-solid fa-up-right-from-square&quot;&gt;&lt;/i&gt;",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://note.alirezad.ir";
               },
             },{id: "dropdown-lt-i-class-quot-fa-solid-fa-clock-rotate-left-quot-gt-lt-i-gt-momentum-lt-i-class-quot-fa-solid-fa-up-right-from-square-quot-gt-lt-i-gt",
               title: "&lt;i class=&quot;fa-solid fa-clock-rotate-left&quot;&gt;&lt;/i&gt; Momentum &lt;i class=&quot;fa-solid fa-up-right-from-square&quot;&gt;&lt;/i&gt;",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://now.alirezad.ir";
+              },
+            },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
               },
             },{id: "post-my-master-thesis",
       
@@ -105,7 +112,12 @@ ninja.data = [{
           window.open("https://youtu.be/egN-C9lx9DI", "_blank");
         
       },
-    },{id: "news-giscus-now-works-properly-and-you-can-comment-on-posts",
+    },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-giscus-now-works-properly-and-you-can-comment-on-posts",
           title: 'Giscus now works properly and you can comment on posts',
           description: "",
           section: "News",},{id: "news-happy-nowrouz-iranian-new-year-this-website-is-now-in-beta",
