@@ -19,4 +19,7 @@ children:
     - title: divider
     - title: <i class="fa-solid fa-clock-rotate-left"></i> Momentum <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://now.alirezad.ir
+    - title: divider
+    - title: bookshelf
+      permalink: /books/
 ---
