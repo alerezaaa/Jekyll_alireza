@@ -58,6 +58,13 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* Apple Invites */
+.button-invites {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
 /* Apple Music */
 .button-apple-music {
 	--button-text:#ffffff;
@@ -178,13 +185,13 @@
 /* Facebook */
 .button-faceb {
 	--button-text:#ffffff;
-	--button-background:#1877f2;
+	--button-background:#0866FF;
 }
 
 /* Facebook Messenger */
 .button-messenger {
 	--button-text:#ffffff;
-	background-image:linear-gradient(25deg,#0099ff,#5f5dff,#a033ff,#c740cc,#ff5280,#ff7061);
+	--button-background:#0866FF;
 }
 
 /* Figma */
@@ -338,6 +345,13 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* Matrix */
+.button-matrix {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #000000;
+}
+
 /* Medium */
 .button-medium {
 	--button-text:#ffffff;
@@ -398,13 +412,6 @@
 	--button-text:#000000;
 	--button-background:#ffffff;
 	--button-border:1px solid #212121;
-}
-
-/* Read.cv */
-.button-read-cv {
-	--button-text:#FFFFFF;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* Reddit */
@@ -590,6 +597,12 @@
 	--button-text:#ffffff;
 	--button-background:#282828;
 	--button-border:1px solid #FFFFFF;
+}
+
+/* YouTube Alt */
+.button-yt-alt {
+	--button-text:#ffffff;
+	--button-background:#FF0000;
 }
 
 /* Zoom */
