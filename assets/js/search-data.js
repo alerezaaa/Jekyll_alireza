@@ -80,39 +80,39 @@ ninja.data = [{
                 window.location.href = "/books/";
               },
             },{id: "post-my-master-thesis",
-      
-        title: "My Master Thesis",
-      
-      description: "My Master degree thesis in University of Tehran",
-      section: "Posts",
-      handler: () => {
         
-          window.location.href = "/blog/2023/master-thesis/";
+          title: "My Master Thesis",
         
-      },
-    },{id: "post-i-ve-just-finished-machine-learning-course",
-      
-        title: "I’ve just finished Machine Learning course",
-      
-      description: "Machine Learning Course introduced by Andrew Ng, offered by coursera",
-      section: "Posts",
-      handler: () => {
+        description: "My Master degree thesis in University of Tehran",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/master-thesis/";
+          
+        },
+      },{id: "post-i-ve-just-finished-machine-learning-course",
         
-          window.location.href = "/blog/2022/i-ve-just-finished-machine-learning-course/";
+          title: "I’ve just finished Machine Learning course",
         
-      },
-    },{id: "post-my-youtube-video-about-our-rasberry-pi-project",
-      
-        title: 'My Youtube video about our Rasberry Pi project <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "We were working on a project which the goal was creating a part of a hardware to detect and send &quot;cut signal&quot; to proper section of the device based on Image processing",
-      section: "Posts",
-      handler: () => {
+        description: "Machine Learning Course introduced by Andrew Ng, offered by coursera",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/i-ve-just-finished-machine-learning-course/";
+          
+        },
+      },{id: "post-my-youtube-video-about-our-rasberry-pi-project",
         
-          window.open("https://youtu.be/egN-C9lx9DI", "_blank");
+          title: 'My Youtube video about our Rasberry Pi project <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "books-the-godfather",
+        description: "We were working on a project which the goal was creating a part of a hardware to detect and send &quot;cut signal&quot; to proper section of the device based on Image processing",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://youtu.be/egN-C9lx9DI", "_blank");
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
