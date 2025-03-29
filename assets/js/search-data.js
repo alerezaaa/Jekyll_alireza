@@ -169,6 +169,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/dehghanzadeh", "_blank");
         },
       },{
+        id: 'social-mastodon',
+        title: 'Mastodon',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://chaos.social/@alireza", "_blank");
+        },
+      },{
         id: 'social-telegram',
         title: 'telegram',
         section: 'Socials',
