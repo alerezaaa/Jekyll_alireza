@@ -176,13 +176,6 @@ ninja.data = [{
           window.open("https://chaos.social/@alireza", "_blank");
         },
       },{
-        id: 'social-telegram',
-        title: 'telegram',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://telegram.me/Talk2Bot", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
