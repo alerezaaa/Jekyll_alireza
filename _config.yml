@@ -4,7 +4,8 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 contact_note: >
-  <b><a href="https://t.me/talk2bot" target="_blank">Telegram</a> is the best way to reach me</b>
+  I rarely check my Email, thanks for your patience
+  # <b><a href="https://t.me/talk2bot" target="_blank">Telegram</a> is the best way to reach me</b>
 first_name: Alireza
 middle_name: 
 last_name: Dehghanzadeh
@@ -14,7 +15,11 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: alireza dehghanzadeh, alireza, dehghanzadeh, university, tehran, master, student, academic website, portfolio, alerezaaa, adehghanzadeh, tabriz, tabrizu, ut, tabriz university, university of tehran, machine learning, deep learning, artificial intelligence   # add your own keywords or leave empty
+keywords: >
+  alireza dehghanzadeh, alireza, dehghanzadeh, university, tehran, master, student, 
+  academic website, portfolio, alerezaaa, adehghanzadeh, tabriz, tabrizu, ut, tabriz university, 
+  university of tehran, machine learning, deep learning, artificial intelligence, 
+  علیرضا, دهقانزاده, علیرضا دهقانزاده, دانشگاه تهران, دانشگاه تبریز
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
