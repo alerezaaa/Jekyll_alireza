@@ -155,6 +155,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/seeder_photoshop/";
             },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%64%65%68%67%68%61%6E%7A%61%64%65%68%39%38@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
