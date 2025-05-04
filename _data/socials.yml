@@ -49,7 +49,7 @@ custom_social: # can be any name here other than the ones already defined above
   logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Lemmy_logo.svg/1200px-Lemmy_logo.svg.png # can be png, svg, jpg
   title: Wwebsite new
   url: https://www.alberteinstein.com/
-custom_social: # can be any name here other than the ones already defined above
+custom_social2: # can be any name here other than the ones already defined above
   logo: https://upload.wikimedia.org/wikipedia/commons/3/31/Pleroma-Logo.png # can be png, svg, jpg
   title: Pleroma
   url: https://poa.st/@alireza
