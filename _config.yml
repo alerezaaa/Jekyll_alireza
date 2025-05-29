@@ -233,6 +233,7 @@ include: ["_pages", "_scripts"]
 exclude:
   - _posts/2025-03-26-plotly.md
   - _posts/2015-07-15-code.md
+  - _books/the_godfather.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
