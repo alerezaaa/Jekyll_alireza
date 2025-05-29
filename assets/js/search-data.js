@@ -112,11 +112,11 @@ ninja.data = [{
             window.open("https://youtu.be/egN-C9lx9DI", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-animal-farm",
+          title: 'Animal Farm',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/animal_farm/";
             },},{id: "news-giscus-now-works-properly-and-you-can-comment-on-posts",
           title: 'Giscus now works properly and you can comment on posts',
           description: "",
