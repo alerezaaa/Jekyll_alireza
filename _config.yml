@@ -187,9 +187,9 @@ external_sources:
   #   rss_url: https://medium.com/@al-folio/feed
   #   categories: [external-posts]
   #   tags: [medium]
-  - name: Google Blog
+  - name: My Youtube video about our Rasberry Pi project
     posts:
-      - url: https://youtu.be/egN-C9lx9DI
+      - url: https://www.youtube.com/watch?v=egN-C9lx9DI
         published_date: 2022-01-03
     categories: [external-posts]
     tags: [youtube]
@@ -487,7 +487,6 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-auto-orient -quality 85"
     webp: "-auto-orient -quality 85"
 
 # Lazy loading images
