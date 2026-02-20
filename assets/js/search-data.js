@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Course materials, schedules, and resources for classes taught.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "dropdown-lt-i-class-quot-fa-solid-fa-list-ul-quot-gt-lt-i-gt-all-of-my-links-mirrors-lt-i-class-quot-fa-solid-fa-up-right-from-square-quot-gt-lt-i-gt",
               title: "&lt;i class=&quot;fa-solid fa-list-ul&quot;&gt;&lt;/i&gt; All of my links (mirrors) &lt;i class=&quot;fa-solid fa-up-right-from-square&quot;&gt;&lt;/i&gt;",
               description: "",
@@ -101,15 +108,15 @@ ninja.data = [{
             window.location.href = "/blog/2022/i-ve-just-finished-machine-learning-course/";
           
         },
-      },{id: "post-my-youtube-video-about-our-rasberry-pi-project",
+      },{id: "post-youtube",
         
-          title: 'My Youtube video about our Rasberry Pi project <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '- YouTube <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "We were working on a project which the goal was creating a part of a hardware to detect and send &quot;cut signal&quot; to proper section of the device based on Image processing",
+        description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://youtu.be/egN-C9lx9DI", "_blank");
+            window.open("https://www.youtube.com/watch?v=egN-C9lx9DI", "_blank");
           
         },
       },{id: "books-animal-farm",
@@ -143,33 +150,57 @@ ninja.data = [{
           description: "Done in photoshop by help of a free template from freepik",
           section: "Projects",handler: () => {
               window.location.href = "/projects/seeder_photoshop/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%64%65%68%67%68%61%6E%7A%61%64%65%68%39%38@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
+        id: 'social-inspire',
+        title: 'Inspire HEP',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/alerezaaa", "_blank");
+          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-rss',
+        title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/dehghanzadeh", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
-        id: 'social-mastodon',
-        title: 'Mastodon',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://chaos.social/@alireza", "_blank");
+          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
