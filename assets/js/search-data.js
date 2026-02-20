@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "dropdown-lt-i-class-quot-fa-solid-fa-list-ul-quot-gt-lt-i-gt-all-of-my-links-mirrors-lt-i-class-quot-fa-solid-fa-up-right-from-square-quot-gt-lt-i-gt",
               title: "&lt;i class=&quot;fa-solid fa-list-ul&quot;&gt;&lt;/i&gt; All of my links (mirrors) &lt;i class=&quot;fa-solid fa-up-right-from-square&quot;&gt;&lt;/i&gt;",
               description: "",
@@ -108,11 +101,11 @@ ninja.data = [{
             window.location.href = "/blog/2022/i-ve-just-finished-machine-learning-course/";
           
         },
-      },{id: "post-youtube",
+      },{id: "post-https-www-youtube-com-watch-v-egn-c9lx9di",
         
-          title: '- YouTube <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'https://www.youtube.com/watch?v=egN-C9lx9DI <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        description: "",
         section: "Posts",
         handler: () => {
           
