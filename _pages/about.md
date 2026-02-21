@@ -34,14 +34,17 @@ latest_posts:
 ---
 Hello
 
-I'm a graduated student from [University of Tehran](https://ut.ac.ir/en) in Biosystem Engineering. I've done _four_ project during my bachelor degree at [University of Tabriz](https://tabrizu.ac.ir/en).
-I was a part of [Precistion Agriculture group](http://infoag.ir/en/)([_Linkedin_](https://www.linkedin.com/company/precision-agriculture-research-team/)) during last two years of my bachelor degree.
+I'm a graduate in Biosystems Engineering from [University of Tehran](https://ut.ac.ir/en). During my bachelor’s degree, I completed four projects at [University of Tabriz](https://tabrizu.ac.ir/en), and for the last two years, I was part of the [Precision Agriculture Group](http://infoag.ir/en/) ([LinkedIn](https://www.linkedin.com/company/precision-agriculture-research-team/)).
 
-I worked on four group project (two lecture based and two industerial project) and so I learnt about programming algorithms, Adruiono, electrical circuts and automation. more details can be found in [Projects](https://alirezad.ir/projects/) section.
-My master thesis was based on Machine Learning which helped me dive into understanding Python and Machine Learning.
+Through these projects —two lecture-based and two industry-focused— I gained hands-on experience in programming algorithms, Arduino, electrical circuits, and automation. You can find more details in the [Projects](https://alirezad.ir/projects/) section.
 
-My curiosity in age of 17 directed me to Ubuntu, and three years later, when I was working on a project, I decided to switch to Linux-based Operating systems. Due to my inspiration to coding, I started a hobby project to bypass internet limitation (in Iran) which lead me to learning Docker and more-Linux. Thoughts of having a personal website pushed me to learn about frontend development and NodeJS ([Here is why](https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/)).
+My master’s thesis focused on Machine Learning, which deepened my understanding of Python and practical ML applications.
 
-All in all, I decided to focus on some special fields and they are: Coding (Python, Go, JavaScript, Docker, frameworks and etc.), Web Application Security and Machine Learning.
+I’ve been curious about technology since I was 17, starting with Ubuntu. A few years later, while working on a project, I switched to Linux-based operating systems and began exploring coding more seriously. I started a personal hobby project to bypass internet restrictions in Iran, which led me to learn Docker and advanced Linux skills. My interest in building a personal website also pushed me to explore frontend development and NodeJS ([Here is why](https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/)).
 
-Time makes opportunities!
+Currently, I focus on several areas:
+- **Coding:** Python, Go, JavaScript, Docker, and frameworks
+- **Web Application Security**
+- **Machine Learning**
+
+I believe that curiosity and consistent learning open doors to new opportunities.
