@@ -187,12 +187,12 @@ external_sources:
   #   rss_url: https://medium.com/@al-folio/feed
   #   categories: [external-posts]
   #   tags: [medium]
-  - name: My Youtube video about our Rasberry Pi project
-    posts:
-      - url: https://www.youtube.com/watch?v=egN-C9lx9DI
-        published_date: 2022-01-03
-    categories: [external-posts]
-    tags: [youtube]
+  # - name: My Youtube video about our Rasberry Pi project
+  #   posts:
+  #     - url: https://www.youtube.com/watch?v=egN-C9lx9DI
+  #       published_date: 2022-01-03
+  #   categories: [external-posts]
+  #   tags: [youtube]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -252,7 +252,7 @@ exclude:
   - _posts/2020-09-28-twitter.md
   - _posts/2021-07-04-diagrams.md
   - _posts/2022-02-01-redirect.md
-  - _posts/2022-02-01-redirect-to-youtube-raspberry-pi-first.md
+  # - _posts/2022-02-01-redirect-to-youtube-raspberry-pi-first.md
   - _posts/2022-12-10-giscus-comments.md
   - _posts/2023-03-20-table-of-contents.md
   - _posts/2023-03-21-tables.md
