@@ -72,8 +72,11 @@ cv:
         end_date: 2023
         summary: Conducted research in the field of Machine Learning to refine reconstructed Electrical Capacitance Tomography images. <br>Supervised by <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>. <br>Advised by <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>.
         highlights:
-          - <b>Associated Skills&#58;</b> Python, Machine Learning, Scikit-learn, Pandas, NumPy
-          - Get familiar with Tomography and their reconstruction methods
+          - Studied tomography reconstruction techniques to enhance ECT imaging performance.
+          - Developed and evaluated ML models for image refinement and noise reduction.
+          - Processed and analyzed ECT datasets using Python (Scikit-learn, Pandas, NumPy).
+          - Compared multiple Machine Learning algorithms to assess their advantages, limitations, and compatibility with ECT reconstruction methods.
+          - Collaborated with academic supervisors and research team members on ML-based reconstruction pipeline development.
 
 
 
