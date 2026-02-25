@@ -70,7 +70,7 @@ cv:
         location: Karaj, Alborz, Iran
         start_date: 2020
         end_date: 2023
-        summary: Conducted research in the field of Machine Learning to refine reconstructed Electrical Capacitance Tomography images. <br>Supervised by <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>. <br>Advised by <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>.
+        summary: Conducted research in the field of Machine Learning to refine reconstructed Electrical Capacitance Tomography images.
         highlights:
           - Studied tomography reconstruction techniques to enhance ECT imaging performance.
           - Developed and evaluated ML models for image refinement and noise reduction.
