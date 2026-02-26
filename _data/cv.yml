@@ -203,10 +203,9 @@ cv:
         summary: This project used computer vision technology to identify clipping points within PVC ducts, focusing on detecting their flat areas for accurate cuts. Adaptable to ambient noise, the system ensured consistent performance, while its lightweight design enabled seamless integration with the machine's high-speed operations. Utilizing a Raspberry Pi, this compact yet powerful computing platform was used to drive the entire system.
         highlights:
           - Collaborated with <a href="https://www.linkedin.com/in/ali-khalili-790b10146/">Ali Khalili</a>
-          - Computer Vision
-          - Raspberry Pi
           - Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
           - Advised by <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
+          - <b>Skills&#58;</b> Computer Vision, Raspberry Pi
         start_date: 2020-01-01
         end_date: 2021-01-01
 
@@ -214,11 +213,9 @@ cv:
         summary: Due to operator injuries, while cutting stacked up silage blocks, a remote controlling system was developed and configured so that the operators be able to control the machine using wireless technology. The device was able to fully control the machine. The developed device controlled the system by manipulating the pneumatic and hydraulic valves of the machine using a TCP/UDP local network with an android application. Which in fact, the machine performs with more precision and offers product and safety measures. Android application developed by Eng. Ali Khalili Based on React-native.
         highlights:
           - Collaborated with <a href="https://www.linkedin.com/in/ali-khalili-790b10146/">Ali Khalili</a> <a href="https://www.linkedin.com/in/ali-khalili-790b10146/"><i class="fab fa-linkedin"></i></a>
-          - Arduino
-          - Electrical Circuit Design
-          - Adnroid Development
           - Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
           - Advised by <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
+          - <b>Skills&#58;</b> Arduino, Electrical Circuit Design, Adnroid Development
         start_date: 2017-01-01
         end_date: 2018-01-01
 
@@ -228,9 +225,7 @@ cv:
           - <b>Team members&#58;</b> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/">Anis Azarmikhah</a> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/"><i class="fab fa-linkedin"></i></a>, <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/">Hadi Farahmand</a> <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/"><i class="fab fa-linkedin"></i></a>, Samira Komeili, Niloufar Rahimi
           - <b>Course&#58;</b> Design of Harvesting Machine 
           - <b>Supervisor&#58;</b> <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
-          - Team work
-          - SolidWorks
-          - Mechanical Engineering Design
+          - <b>Skills&#58;</b> Team work, SolidWorks, Mechanical Engineering Design
         start_date: 2018-01-01
         end_date: 2019-01-01
 
@@ -240,9 +235,7 @@ cv:
           - <b>Team members&#58;</b> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/">Anis Azarmikhah</a> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/"><i class="fab fa-linkedin"></i></a>, <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/">Hadi Farahmand</a> <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/"><i class="fab fa-linkedin"></i></a>, Samira Komeili, Niloufar Rahimi
           - <b>Course&#58;</b> Mechanical Enginnering Design 
           - <b>Supervisor&#58;</b> <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
-          - Team work
-          - SolidWorks
-          - Mechanical Engineering Design
+          - <b>Skills&#58;</b> Team work, SolidWorks, Mechanical Engineering Design
         start_date: 2017-01-01
         end_date: 2018-01-01
 
