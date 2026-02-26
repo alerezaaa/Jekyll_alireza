@@ -26,10 +26,10 @@ cv:
       - institution: University of Tehran
         location: Tehran, Iran
         url: https://ut.ac.ir/en
-        area: Agricultural Machinery Engineering
+        area: Biosystems Engineering
         studyType: Master's degree
-        start_date: 2020
-        end_date: 2023
+        start_date: 2020/10
+        end_date: 2023/09
         score: "16.70/20"
         courses: "Artificial Intelligence, Finite Element Analysis, Advanced Control Systems"
         highlights:
@@ -41,22 +41,22 @@ cv:
       - institution: Tabriz University
         location: Tehran, Iran
         url: https://tabrizu.ac.ir/en
-        area: Agricultural Machinery Engineering
+        area: Biosystems Engineering
         studyType: Bachelor's degree
-        start_date: 2016
-        end_date: 2020
+        start_date: 2016/09
+        end_date: 2020/09
         score: "15.70/20"
-        courses: "Machanical Engineering Design, Fluid Mechanics, Heat Transfer, Strength of Materials, Control Systems, Computer Aided Design, Agricultural Machinery Design"
+        courses: "Machanical Engineering Design, Maintenance Engineering, Computer Aided Design, Agricultural Machinery Design"
         highlights:
-          - Mechanical Engineering Design project&#58; design a mechanical scissor jack
-          - Harvesting Machinary Design project&#58; design a basil harvesting machine
+          - <b>Project:</b> Design a mechanical scissor jack <sup>(<b>Course&#58;</b> Mechanical Engineering Design)</sup>
+          - <b>Project:</b> Design a basil harvesting machine <sup>(<b>Course&#58;</b> Harvesting Machinary Design)</sup>
 
     Experience:
       - company: <a href="https://ut.ac.ir/en"><b>University of Tehran</b></a>, Central Library of College of Agriculture and Natural Resources
         position: IT Support & Systems Administrator (Library Services)
         location: Karaj, Alborz, Iran
-        start_date: 2024
-        end_date: 2026
+        start_date: 2024/06
+        end_date: 2026/04
         summary: Civilian National Service (Sarbazi Amrieh)
         highlights:
           - Managed and maintained library IT systems, workstations, and networked devices
@@ -68,8 +68,8 @@ cv:
       - company: <a href="https://ut.ac.ir/en"><b>University of Tehran</b></a>
         position: Researcher Assistant
         location: Karaj, Alborz, Iran
-        start_date: 2021
-        end_date: 2023
+        start_date: 2021/10
+        end_date: 2023/09
         summary: Conducted research in the field of Machine Learning to refine reconstructed Electrical Capacitance Tomography images.
         highlights:
           - Developed and evaluated Machine Learning models for image refinement and noise reduction.
@@ -82,10 +82,10 @@ cv:
 
     Volunteer:
       - company: <a href="https://tabrizu.ac.ir/en"><b>Tabriz University</b></a>, <a href="https://www.linkedin.com/company/precision-agriculture-research-team/posts/?feedView=all">Precision Agriculture group</a>
-        position: Undergraduate Research Assistant – Automation & Computer Vision
+        position: Research Assistant – Automation & Computer Vision
         location: Tabriz, East Azerbaijan, Iran
-        start_date: 2019
-        end_date: 2021
+        start_date: 2019/03
+        end_date: 2021/04
         summary: Assisted in the design and development of smart agricultural machinery systems, focusing on automation, embedded systems, and computer vision applications. <br><br>Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>. Advised by <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>.
         highlights:
           - Designed and implemented a <b>computer vision–based pipe cutting system</b> using Raspberry Pi to detect precise clipping points on PVC ducts by identifying flat surface regions for accurate cuts.
@@ -161,9 +161,9 @@ cv:
         summary: "Limited"
 
     Interests:
-      - name: Web Application Security
-        icon: fas fa-shield-alt
-        keywords: "Kivy, Python"
+      - name: Automation using Artificial Intelligence
+        icon: fas fa-robot
+        keywords: "Python, Machine Learning, Computer Vision"
       
       - name: Computer Science
         icon: fas fa-desktop
@@ -177,6 +177,10 @@ cv:
         icon: fas fa-tree
         keywords: "Camping, Environmental Conservation"
 
+      - name: Web Application Security
+        icon: fas fa-shield-alt
+        keywords: "Network, Programming"
+      
 
     Certificates:
       - name: <a href="https://certificates.cs50.io/a72d88d7-d288-4fb9-b7c0-e017542b0be1.pdf?size=a4">CS50 Understanding Technology</a>
