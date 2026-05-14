@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b><a href='https://alirezad.ir'>SITE</a> IS IN BETA!</b> Welcome!
+subtitle: <i>Under Maintenance! 84%</i> Welcome!
 
 profile:
   align: right
