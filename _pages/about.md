@@ -32,19 +32,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 
 ---
-Hello
+An Iranian curious higher education graduate, widely known for his passion for learning and exploring new technologies. With a strong background in computer science and a keen interest in Artificial Intelligence (ML), Automation (ML-based) and Nature. I am dedicated to expanding my knowledge and skills in the field. I am an active participant in online communities and enjoys sharing my insights and discoveries with others.
 
-I'm a graduate in Biosystems Engineering from [University of Tehran](https://ut.ac.ir/en). During my bachelor’s degree, I completed four projects at [University of Tabriz](https://tabrizu.ac.ir/en), and for the last two years, I was part of the [Precision Agriculture Group](http://infoag.ir/en/) ([LinkedIn](https://www.linkedin.com/company/precision-agriculture-research-team/)).
+Have experience in [Precision Agriculture Group](http://infoag.ir/en/) ([LinkedIn](https://www.linkedin.com/company/precision-agriculture-research-team/)) and University of Tehran.
 
-Through these projects —two lecture-based and two industry-focused— I gained hands-on experience in programming algorithms, Arduino, electrical circuits, and automation. You can find more details in the [Projects](https://alirezad.ir/projects/) section.
+I’ve been curious about technology since I was 17, starting with Ubuntu. A few years later, while working on a project, I switched to Linux-based operating systems and began exploring coding more seriously. I started a personal hobby project to bypass internet restrictions in Iran, which led me to learn Docker and Network. My interests in building a personal website also pushed me to explore frontend development and NodeJS ([Here is an example](https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/)).
 
-My master’s thesis focused on Machine Learning, which deepened my understanding of Python and practical ML applications.
-
-I’ve been curious about technology since I was 17, starting with Ubuntu. A few years later, while working on a project, I switched to Linux-based operating systems and began exploring coding more seriously. I started a personal hobby project to bypass internet restrictions in Iran, which led me to learn Docker and advanced Linux skills. My interest in building a personal website also pushed me to explore frontend development and NodeJS ([Here is why](https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/)).
-
-Currently, I focus on several areas:
-- **Coding:** Python, Go, JavaScript, Docker, and frameworks
-- **Web Application Security**
-- **Machine Learning**
-
-I believe that curiosity and consistent learning open doors to new opportunities.
+Highlights:
+- **Machine Learning** ➜ mostly Automation and Ai as assitance
+- **Coding:** Python and its frameworks, JavaScript, Docker
+- **ML in Agriculture**
