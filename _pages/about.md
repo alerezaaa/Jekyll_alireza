@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>Under Maintenance! 84%</i> Welcome!
+subtitle: <i>Under Maintenance! 84%</i> -  Welcome!
 
 profile:
   align: right
@@ -34,11 +34,11 @@ latest_posts:
 ---
 An Iranian curious higher education graduate, widely known for his passion for learning and exploring new technologies. With a strong background in computer science and a keen interest in Artificial Intelligence (ML), Automation (ML-based) and Nature. I am dedicated to expanding my knowledge and skills in the field. I am an active participant in online communities and enjoys sharing my insights and discoveries with others.
 
-Have experience in [Precision Agriculture Group](http://infoag.ir/en/) ([LinkedIn](https://www.linkedin.com/company/precision-agriculture-research-team/)) and University of Tehran.
+Have experience in [Precision Agriculture Group](http://infoag.ir/en/) ([LinkedIn](https://www.linkedin.com/company/precision-agriculture-research-team/)) and [University of Tehran](https://ut.ac.ir/en).
 
 I’ve been curious about technology since I was 17, starting with Ubuntu. A few years later, while working on a project, I switched to Linux-based operating systems and began exploring coding more seriously. I started a personal hobby project to bypass internet restrictions in Iran, which led me to learn Docker and Network. My interests in building a personal website also pushed me to explore frontend development and NodeJS ([Here is an example](https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/)).
 
 Highlights:
-- **Machine Learning** ➜ mostly Automation and Ai as assitance
+- **Machine Learning** → mostly Automation and Ai as assitance
 - **Coding:** Python and its frameworks, JavaScript, Docker
 - **ML in Agriculture**
