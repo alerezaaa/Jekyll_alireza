@@ -45,9 +45,21 @@ But how to connect to a mirror? EASY, by add a two-letter subdomain to the main 
   - `vc.alirezad.ir`
   - `nf.alirezad.ir`
   - !! Note that `alirezad.ir/links` is a part of my personal website, so if you visit `fb.alirezad.ir/links`, the `links` also located on Google Firebase! (nice approach, huh?)
-- e.g. for cv.alirezad.ir
+- e.g. for **cv**.alirezad.ir
   - `fb.cv.alirezad.ir`
   - `vc.cv.alirezad.ir`
   - `nf.cv.alirezad.ir`
+- e.g. for **photo**.alirezad.ir
+  - `fb.photo.alirezad.ir`
+  - `vc.photo.alirezad.ir`
+  - `nf.photo.alirezad.ir`
  
-and so on, again, all links are available *on specified subdomain [links.alirezad.ir](https://links.alirezad.ir/)* or *on subpage of my website [alirezad.ir/links](/links/)*
+and so on...
+
+again, all links are available *on specified subdomain **[links.alirezad.ir](https://links.alirezad.ir/)*** or *on subpage of my website **[alirezad.ir/links](/links/)***
+
+How to find the default hosting of each? good question, if you visit *[links.alirezad.ir](https://links.alirezad.ir/)* or *[alirezad.ir/links](/links/)*, scroll down to 'Mirrors',you can see there is a  micro-size dot close the icon of providers listed under each website (pay attention to Cloudflare icon under "My Website" and Firebase icon under "My online CV":
+<img width="668" height="884" alt="image" src="https://github.com/user-attachments/assets/220b8245-fd01-49ae-886b-57938b80071f" />
+
+
+Good time
