@@ -59,6 +59,7 @@ and so on...
 again, all links are available *on specified subdomain **[links.alirezad.ir](https://links.alirezad.ir/)*** or *on subpage of my website **[alirezad.ir/links](/links/)***
 
 How to find the default hosting of each? good question, if you visit *[links.alirezad.ir](https://links.alirezad.ir/)* or *[alirezad.ir/links](/links/)*, scroll down to 'Mirrors',you can see there is a  micro-size dot close the icon of providers listed under each website (pay attention to Cloudflare icon under "My Website" and Firebase icon under "My online CV":
+
 <img width="668" height="884" alt="image" src="https://github.com/user-attachments/assets/220b8245-fd01-49ae-886b-57938b80071f" />
 
 
