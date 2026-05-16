@@ -123,12 +123,7 @@ ninja.data = [{
           section: "News",},{id: "news-happy-nowrouz-iranian-new-year-this-website-is-now-in-beta",
           title: '🎉 Happy Nowrouz (Iranian new year)! This website is now in beta.',
           description: "",
-          section: "News",},{id: "news-my-gallery-is-online-now-my-online-life",
-          title: 'My Gallery is online now ⸺ my online life',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/online_living/";
-            },},{id: "news-manual-multi-cloud-infrastructure-links-alirezad-ir",
+          section: "News",},{id: "news-manual-multi-cloud-infrastructure-links-alirezad-ir",
           title: 'Manual multi-cloud infrastructure ⸺ links.alirezad.ir',
           description: "",
           section: "News",handler: () => {
