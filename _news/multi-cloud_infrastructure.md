@@ -12,7 +12,7 @@ I'm glad to announce that I could host my websites on different hosting - FOR FR
 
 NOTE: all links and mirrors are available here:
 - [links.alirezad.ir](https://links.alirezad.ir) (Hosted on Github Pages)
-- [https://alirezad.ir/links](https://alirezad.ir/links) (Hosted on where the main website loaded based on URL ⸺ see below)
+- [https://alirezad.ir/links](/links/) (Hosted on where the main website loaded based on URL ⸺ see below)
 
 My websites are:
 - **My personal website** ([this](/)): [https://alirezad.ir/](https://alirezad.ir/)
@@ -27,10 +27,10 @@ First, let's list them:
 - **Cloudflare Pages**  ⸺  *based on Cloudflare CDN*
 - **Google Firebase** (web.dev)  ⸺  *based on Google Cloud CDN*
 - **Github Pages** (well known)  ⸺  *based on Fastly CDN*
-- **Vercel**  ⸺  *based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS_)*
+- **Vercel**  ⸺  *based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS)*
 - **Netlify**  ⸺  *based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud)*
 
-There are some others, but I decided to stick with these due to better performance based on [BeJamas.com](bejamas.com/compare/).
+There are some others, but I decided to stick with these due to better performance based on [BeJamas.com](https://bejamas.com/compare/).
 
 I assigned a two-letter subdomain for each and select one provider for each website:
 - `cf` for Cloudflare
