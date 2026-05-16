@@ -128,6 +128,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/online_living/";
+            },},{id: "news-manual-multi-cloud-infrastructure-links-alirezad-ir",
+          title: 'Manual multi-cloud infrastructure ⸺ links.alirezad.ir',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/multi-cloud_infrastructure/";
             },},{id: "projects-basil-harvester",
           title: 'Basil Harvester',
           description: "Design a machine to harvest basils as a successor to Scissor Jack",
