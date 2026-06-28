@@ -1,189 +1,250 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Alireza Dehghanzadeh
+  label: Smart Agriculture and Computer Science Enthusiast
+  email: dehghanzadeh98@gmail.com
+  location: Karaj, Alborz, Iran
+  image: "ali.jpg"
+  summary: An Iranian curious graduate student, widely known for his passion for learning and exploring new technologies. With a strong background in computer science and a keen interest in artificial intelligence, I am dedicated to expanding my knowledge and skills in the field. I am an active participant in online communities and enjoys sharing my insights and discoveries with others.
 
   social_networks:
     - network: X
-      username: AlbertEinstein
+      username: digdert
     - network: GitHub
-      username: example
+      username: alerezaaa
     - network: LinkedIn
-      username: example
+      username: dehghanzadeh
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  # address:
+  #   street: 2712 Broadway St
+  #   city: San Francisco
+  #   region: California
+  #   postalCode: CA 94115
+  #   countryCode: IR
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Tehran
+        location: Tehran, Iran
+        url: https://ut.ac.ir/en
+        area: Biosystems Engineering
+        studyType: Master's degree
+        start_date: 2020/10
+        end_date: 2023/09
+        score: "16.70/20"
+        courses: "Artificial Intelligence, Finite Element Analysis, Advanced Control Systems"
         highlights:
-          - Description 1.
-          - Description 2.
+          - <b>Thesis&#58;</b> explore Machine Learning models to refine Reconstructed ECT images (Electrical Capacitance Tomography)
+          - Thesis supported by <a href="https://www.pmo.ir/en/home">Port & Maritime Organization of Iran</a>
+          - <b>Supervisor&#58;</b> <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>
+          - <b>Advisors&#58;</b> <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Tabriz University
+        location: Tehran, Iran
+        url: https://tabrizu.ac.ir/en
+        area: Biosystems Engineering
+        studyType: Bachelor's degree
+        start_date: 2016/09
+        end_date: 2020/09
+        score: "15.70/20"
+        courses: "Machanical Engineering Design, Maintenance Engineering, Computer Aided Design, Agricultural Machinery Design"
         highlights:
-          - Description 1.
-          - Description 2.
+          - <b>Project:</b> Design a mechanical scissor jack <sup>(<b>Course&#58;</b> Mechanical Engineering Design)</sup>
+          - <b>Project:</b> Design a basil harvesting machine <sup>(<b>Course&#58;</b> Harvesting Machinary Design)</sup>
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: <a href="https://ut.ac.ir/en"><b>University of Tehran</b></a>, Central Library of College of Agriculture and Natural Resources
+        position: IT Support & Systems Administrator
+        location: Karaj, Alborz, Iran
+        start_date: 2024/06
+        end_date: 2026/04
+        summary: Civilian National Service (Sarbazi Amrieh)
         highlights:
-          - Relativity
-          - Description 2.
+          - Managed and maintained library IT systems, workstations, and networked devices
+          - Administered and updated institutional websites
+          - Provided technical support and troubleshooting for students and staff
+          - Created instructional materials (videos, slides, documentation, print guides)
+          - Conducted user orientation and introductory IT sessions
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: <a href="https://ut.ac.ir/en"><b>University of Tehran</b></a>
+        position: Researcher Assistant
+        location: Karaj, Alborz, Iran
+        start_date: 2021/10
+        end_date: 2023/09
+        summary: Conducted research in the field of Machine Learning to refine reconstructed Electrical Capacitance Tomography images.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed and evaluated Machine Learning models for image refinement and noise reduction.
+          - Processed and analyzed ECT datasets using Python (Scikit-learn, Pandas, NumPy).
+          - Compared multiple Machine Learning algorithms to assess their advantages, limitations, and compatibility with ECT reconstruction methods.
+          - Studied tomography reconstruction techniques to enhance ECT imaging performance.
+          - Collaborated with academic supervisors and research team members on ML-based reconstruction pipeline development.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: <a href="https://tabrizu.ac.ir/en"><b>Tabriz University</b></a>, <a href="https://www.linkedin.com/company/precision-agriculture-research-team/posts/?feedView=all">Precision Agriculture group</a>
+        position: Research Assistant – Automation & Computer Vision
+        location: Tabriz, East Azerbaijan, Iran
+        start_date: 2019/03
+        end_date: 2021/04
+        summary: Assisted in the design and development of smart agricultural machinery systems, focusing on automation, embedded systems, and computer vision applications. <br><br>Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>. Advised by <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed and implemented a <b>computer vision–based pipe cutting system</b> using Raspberry Pi to detect precise clipping points on PVC ducts by identifying flat surface regions for accurate cuts.
+          - Developed a lightweight, noise-adaptive vision system optimized for real-time performance and integration with high-speed industrial machinery.
+          - Built a <b>wireless remote control system for a silage block cutting machine</b> to improve operator safety and precision.
+          - Implemented full machine control via TCP/UDP local network communication using an Android application.
+          - Integrated control logic with pneumatic and hydraulic valve systems for precise actuation.
+          - Contributed to reducing operator injury risks and improving cutting accuracy through automation.
+          - <b>Technologies & Tools&#58;</b> Python, Linux, Raspberry Pi, Arduino, C Programming, Electrical Circuit Design, Image Processing, TCP/UDP Networking
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    # Awards:
+    #   # - title: Nobel Prize in Physics
+    #   #   authors:
+    #   #     - "Royal Swedish Academy of Sciences"
+    #   #   date: 1921-11-01
+    #   #   awarder: Royal Swedish Academy of Sciences
+    #   #   url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #   #   summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    # Publications:
+    #   # - title: Zur Elektrodynamik bewegter Körper
+    #   #   authors:
+    #   #     - Albert Einstein
+    #   #   publisher: Annalen der Physik
+    #   #   releaseDate: 1905-06-30
+    #   #   url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+    #   #   summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
     Skills:
-      - name: Physics
+      - name: Python Programming
         level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        icon: fab fa-python
+        keywords: "Pandas, NumPy, Scikit-learn"
+
+      - name: Machine Learning
+        level: Intermediate
+        icon: fas fa-brain
+        keywords: "Scikit-learn, Data Analysis"
+
+      - name: Linux
+        level: Intermediate
+        icon: fab fa-linux
+        keywords: "Unix, Command Line, Shell Scripting"
+
+      - name: Raspberry Pi
+        level: Intermediate
+        icon: fas fa-microchip
+        keywords: "Linux, Bach, PiP, Electrical Circuit Design"
+
+      - name: Android Development
+        level: Junior
+        icon: fab fa-android
+        keywords: "Kivy, Python"
+
+      - name: Web Development
+        level: Junior
+        icon: fas fa-laptop-code
+        keywords: "HTML, CSS, JavaScript"
+
+      - name: Arduino
+        level: Junior
+        icon: fas fa-cogs
+        keywords: "C programming, Electrical Circuit Design"
 
     Languages:
-      - name: German
+      - name: Persian
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
 
+      - name: Azerbaijani
+        summary: "Limited"
+
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Automation using Artificial Intelligence
+        icon: fas fa-robot
+        keywords: "Python, Machine Learning, Computer Vision"
+      
+      - name: Computer Science
+        icon: fas fa-desktop
+        keywords: "Programming, Algorithms, Data Structures"
+
+      - name: Meditation
+        icon: fas fa-spa
+        keywords: "Mindfulness, Relaxation, Stress Reduction"
+
+      - name: Nature
+        icon: fas fa-tree
+        keywords: "Camping, Environmental Conservation"
+
+      - name: Web Application Security
+        icon: fas fa-shield-alt
+        keywords: "Network, Programming"
+      
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: <a href="https://certificates.cs50.io/a72d88d7-d288-4fb9-b7c0-e017542b0be1.pdf?size=a4">CS50 Understanding Technology</a>
+        date: 2023-12-01
+        issuer: Harvard University
+        icon: fas fa-desktop
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: <a href="https://openbadgefactory.com/v1/assertion/454d416de1e0ee727dd97fbd81fa89362c3d5230.html">Machine learning in Python with scikit-learn</a>
+        date: 2023-03-01
+        issuer: France Université Numérique
+        icon: fas fa-brain
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: <a href="https://www.coursera.org/account/accomplishments/certificate/BEYRHUN8XPLX">Machine Learning</a>
+        date: 2022-01-01
+        issuer: Stanford University by Andrew Ng
+        icon: fas fa-square-root-alt
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: PVC Duct Cutting Machine Computer Vision System
+        summary: This project used computer vision technology to identify clipping points within PVC ducts, focusing on detecting their flat areas for accurate cuts. Adaptable to ambient noise, the system ensured consistent performance, while its lightweight design enabled seamless integration with the machine's high-speed operations. Utilizing a Raspberry Pi, this compact yet powerful computing platform was used to drive the entire system.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
+          - Collaborated with <a href="https://www.linkedin.com/in/ali-khalili-790b10146/">Ali Khalili</a>
+          - Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
+          - Advised by <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
+          - <b>Skills&#58;</b> Computer Vision, Raspberry Pi
+        start_date: 2020-01-01
+        end_date: 2021-01-01
+
+      - name: Remote Controller for a Silage Block Cutting Machine
+        summary: Due to operator injuries, while cutting stacked up silage blocks, a remote controlling system was developed and configured so that the operators be able to control the machine using wireless technology. The device was able to fully control the machine. The developed device controlled the system by manipulating the pneumatic and hydraulic valves of the machine using a TCP/UDP local network with an android application. Which in fact, the machine performs with more precision and offers product and safety measures. Android application developed by Eng. Ali Khalili Based on React-native.
+        highlights:
+          - Collaborated with <a href="https://www.linkedin.com/in/ali-khalili-790b10146/">Ali Khalili</a> <a href="https://www.linkedin.com/in/ali-khalili-790b10146/"><i class="fab fa-linkedin"></i></a>
+          - Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
+          - Advised by <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
+          - <b>Skills&#58;</b> Arduino, Electrical Circuit Design, Adnroid Development
+        start_date: 2017-01-01
         end_date: 2018-01-01
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Basil Harvester
+        summary: Design a machine to harvest basils as a successor to Scissor Jack since we got the best resualts and distinguished among other groups in related class. There are a large number of small agriculture farms around mid-to-big cities in Iran which they plant different basils alongside eachother in several section in their farms. This project aimed this businesses to help them increasing outcome and decreasing wastes. This machine was design by intelligence functionality in mind and using previous works and experiences.
+        highlights:
+          - <b>Team members&#58;</b> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/">Anis Azarmikhah</a> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/"><i class="fab fa-linkedin"></i></a>, <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/">Hadi Farahmand</a> <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/"><i class="fab fa-linkedin"></i></a>, Samira Komeili, Niloufar Rahimi
+          - <b>Course&#58;</b> Design of Harvesting Machine 
+          - <b>Supervisor&#58;</b> <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
+          - <b>Skills&#58;</b> Team work, SolidWorks, Mechanical Engineering Design
+        start_date: 2018-01-01
+        end_date: 2019-01-01
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Scissor Jack
+        summary: Apply Mechanical Engineering Design knowledge to Design a scissor jack as a course project. Design was done using Solidworks and the analysis which was additional, done through Ansys Mechanical.
+        highlights:
+          - <b>Team members&#58;</b> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/">Anis Azarmikhah</a> <a target="_blank" href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/"><i class="fab fa-linkedin"></i></a>, <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/">Hadi Farahmand</a> <a target="_blank" href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/"><i class="fab fa-linkedin"></i></a>, Samira Komeili, Niloufar Rahimi
+          - <b>Course&#58;</b> Mechanical Enginnering Design 
+          - <b>Supervisor&#58;</b> <a href="https://www.researchgate.net/profile/Hossein-Navid">Dr. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a>
+          - <b>Skills&#58;</b> Team work, SolidWorks, Mechanical Engineering Design
+        start_date: 2017-01-01
+        end_date: 2018-01-01
+
+
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.

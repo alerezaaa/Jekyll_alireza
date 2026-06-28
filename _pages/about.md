@@ -1,19 +1,24 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <i>Under Maintenance! 84%</i> -  Welcome!
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Coding and linux enthusiast</p>
+    <p>Graduted M.Sc.</p>
+    <p><svg width="15px" height="15px" viewBox="0 0 36 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet" fill="#38e339" stroke="#38e339" stroke-width="0.43200000000000005"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#31373D" d="M34.459 1.375a2.999 2.999 0 0 0-4.149.884L13.5 28.17l-8.198-7.58a2.999 2.999 0 1 0-4.073 4.405l10.764 9.952s.309.266.452.359a2.999 2.999 0 0 0 4.15-.884L35.343 5.524a2.999 2.999 0 0 0-.884-4.149z"></path></g></svg> MSc <a href='https://ut.ac.ir/en' style="text-decoration: none; color: inherit;">University of Tehran</a></p>
+    <p><svg width="15px" height="15px" viewBox="0 0 36 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet" fill="#38e339" stroke="#38e339" stroke-width="0.43200000000000005"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#31373D" d="M34.459 1.375a2.999 2.999 0 0 0-4.149.884L13.5 28.17l-8.198-7.58a2.999 2.999 0 1 0-4.073 4.405l10.764 9.952s.309.266.452.359a2.999 2.999 0 0 0 4.15-.884L35.343 5.524a2.999 2.999 0 0 0-.884-4.149z"></path></g></svg> BSc <a href='https://tabrizu.ac.ir/en' style="text-decoration: none; color: inherit;">Tabriz University</a></p>
+#    <ul>
+#      <li>MSc <a href='https://ut.ac.ir/en' style="text-decoration: none; color: inherit;">University of Tehran</a></li>
+#      <li>BSc <a href='https://tabrizu.ac.ir/en' style="text-decoration: none; color: inherit;">Tabriz University</a></li>
+#    </ul>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +27,18 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
 ---
+An Iranian curious higher education graduate, widely known for his passion for learning and exploring new technologies. With a strong background in computer science and a keen interest in Artificial Intelligence (ML), Automation (ML-based) and Nature. I am dedicated to expanding my knowledge and skills in the field. I am an active participant in online communities and enjoys sharing my insights and discoveries with others.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Have experience in [Precision Agriculture Group](http://infoag.ir/en/) ([LinkedIn](https://www.linkedin.com/company/precision-agriculture-research-team/)) and [University of Tehran](https://ut.ac.ir/en).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’ve been curious about technology since I was 17, starting with Ubuntu. A few years later, while working on a project, I switched to Linux-based operating systems and began exploring coding more seriously. I started a personal hobby project to bypass internet restrictions in Iran, which led me to learn Docker and Network. My interests in building a personal website also pushed me to explore frontend development and NodeJS ([Here is an example](https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/)).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Highlights:
+- **Machine Learning** → mostly Automation and Ai as assitance
+- **Coding:** Python and its frameworks, JavaScript, Docker
+- **ML in Agriculture**
