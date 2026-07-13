@@ -118,7 +118,7 @@ cv:
       - name: Python Programming
         level: Master
         icon: fab fa-python
-        keywords: "Pandas, NumPy, Scikit-learn"
+        keywords: "Pandas, NumPy, Scikit-learn, Kivy (Android), Flask (Web), PiP"
 
       - name: Machine Learning
         level: Intermediate
@@ -128,17 +128,7 @@ cv:
       - name: Linux
         level: Intermediate
         icon: fab fa-linux
-        keywords: "Unix, Command Line, Shell Scripting"
-
-      - name: Raspberry Pi
-        level: Intermediate
-        icon: fas fa-microchip
-        keywords: "Linux, Bach, PiP, Electrical Circuit Design"
-
-      - name: Android Development
-        level: Junior
-        icon: fab fa-android
-        keywords: "Kivy, Python"
+        keywords: "Raspberry Pi, Bash, Bash Scripting"
 
       - name: Web Development
         level: Junior
@@ -146,8 +136,8 @@ cv:
         keywords: "HTML, CSS, JavaScript"
 
       - name: Arduino
-        level: Junior
-        icon: fas fa-cogs
+        level: Intermediate
+        icon: fas fa-microchip
         keywords: "C programming, Electrical Circuit Design"
 
     Languages:

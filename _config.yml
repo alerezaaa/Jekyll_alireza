@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 contact_note: >
   I rarely check my Email, <b>thanks for your patience</b>
 first_name: Alireza
-middle_name: 
+middle_name:
 last_name: Dehghanzadeh
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   This is personal website of Alireza Dehghanzadeh
@@ -21,14 +21,13 @@ keywords: >
   linux, coding, python, kivy, sci-kit,
   علیرضا, دهقانزاده, علیرضا دهقانزاده, دانشگاه تهران, دانشگاه تبریز, ایران, دانشجو, کارشناسی ارشد, دکتری
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alirezad.ir # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
-
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -54,7 +53,6 @@ external_services:
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -127,7 +125,6 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # contact_note: >
 #   <b><a href="https://t.me/iAlirezaD" target="_blank">Telegram</a> is the best way to reach me</b>
 
-
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -139,8 +136,8 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
-google_site_verification: T2ERe-qbEapqTlC7TiojiwFWn27ACCJYx8ws5ZRwmq0  # your google-site-verification ID (Google Search Console)
-bing_site_verification: CCE4325BDF305412B008C127A04B2D80  # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification: T2ERe-qbEapqTlC7TiojiwFWn27ACCJYx8ws5ZRwmq0 # your google-site-verification ID (Google Search Console)
+bing_site_verification: CCE4325BDF305412B008C127A04B2D80 # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -244,6 +241,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - _projects/3_project.md
   - _posts/2015-03-15-formatting-and-links.md
   - _posts/2015-05-15-images.md
   - _posts/2015-07-15-code.md
@@ -277,6 +275,7 @@ exclude:
   - _posts/2024-12-04-photo-gallery.md
   - _posts/2025-03-26-plotly.md
   - _books/the_godfather.md
+  - al-folio-upgrade-report.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -373,15 +372,14 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ['course', 'artificial intelligence', 'machine learning', 'idea', 'code', ''] # these tags will be displayed on the front page of your blog
-display_categories: ['learning', 'experience', 'project'] # these categories will be displayed on the front page of your blog
+display_tags: ["course", "artificial intelligence", "machine learning", "idea", "code", ""] # these tags will be displayed on the front page of your blog
+display_categories: ["learning", "experience", "project"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: Dehghanzadeh
   first_name: [Alireza, A.]
 
