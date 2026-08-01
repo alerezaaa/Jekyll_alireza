@@ -79,11 +79,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-a-robust-hangman-game-in-python-read-from-my-blog",
+            },{id: "post-robust-hangman-game-in-python-read-from-my-blog",
         
-          title: 'a robust Hangman game in python － read from my blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'robust Hangman game in python － read from my blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "We were working on a project which the goal was creating a part of a hardware to detect and send &quot;cut signal&quot; to proper section of the device based on Image processing",
+        description: "Hangman, a favourite game practice in Python that I have done",
         section: "Posts",
         handler: () => {
           
