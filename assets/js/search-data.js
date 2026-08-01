@@ -112,6 +112,17 @@ ninja.data = [{
             window.location.href = "/blog/2022/i-ve-just-finished-machine-learning-course/";
           
         },
+      },{id: "post-use-notion-as-content-manager-for-jekyll-read-from-my-blog",
+        
+          title: 'Use Notion as content manager for Jekyll － read from my blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "most of Jekyll themes require Markdown for posting and Notion&#39;s export format is Markdown, so let&#39;s combine these two and stay away from struggling with Markdown syntax and focus on posting",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://blog.alirezad.ir/posts/use-notion-as-cms-for-jekyll/", "_blank");
+          
+        },
       },{id: "post-my-youtube-video-about-our-rasberry-pi-project",
         
           title: 'My Youtube video about our Rasberry Pi project <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
