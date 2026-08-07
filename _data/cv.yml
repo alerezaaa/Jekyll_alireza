@@ -1,8 +1,8 @@
 cv:
   name: Alireza Dehghanzadeh
-  label: Smart Agriculture and Computer Science Enthusiast
+  label: Machine Learning · Embedded Systems · Computer Vision
   email: dehghanzadeh98@gmail.com
-  location: Karaj, Alborz, Iran
+  location: Tehran, Iran
   image: "ali.jpg"
   summary: Resourceful engineer who enjoys coding, exploration, and solving real-world problems through creative, practical thinking. Especially interested in applied research and development, using machine learning, computer vision, and software tools to turn technical ideas into reliable, deployable solutions. Holds an M.Sc. from the University of Tehran with a thesis on machine learning for computational imaging — refinement of reconstructions of ECT, an ill-posed inverse problem. Also experienced in co-developing a real-time computer vision system deployed into industrial operation on embedded Linux, and currently building deep-learning pipelines for crack detection in surface imagery.
 
@@ -34,10 +34,10 @@ cv:
         courses: "Artificial Intelligence, Finite Element Analysis, Advanced Control Systems"
         highlights:
           - <b>Thesis&#58;</b> Machine Learning–Based Image Reconstruction Refinement in Electrical Capacitance Tomography, an ill-posed inverse problem.
-          - <b>Supervisor&#58;</b> <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>
-          - <b>Co-supervisors&#58;</b> <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
           - Proposed and developed within a Port & Maritime Organization–funded ECT pipeline-monitoring project.
           - Across separate best-performing configurations, test-set R² reached 0.87 and test-set RMSE was as low as 0.147.
+          - <b>Supervisor&#58;</b> <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>
+          - <b>Co-supervisors&#58;</b> <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
 
       - institution: Tabriz University
         location: Tabriz, Iran
@@ -99,29 +99,24 @@ cv:
 
     Skills:
       - name: Python Programming
-        level: Master
+        level: Advanced
         icon: fab fa-python
-        keywords: "Pandas, NumPy, Scikit-learn, Kivy (Android), Flask (Web), PiP"
+        keywords: "PyTorch, Kivy, Scikit-learn, Pandas, NumPy, Flask, Jupyter"
 
       - name: Machine Learning
         level: Intermediate
         icon: fas fa-brain
-        keywords: "Scikit-learn, Data Analysis"
+        keywords: "Supervised Learning, Cross-Validation, Feature Engineering, Deep Learning"
 
-      - name: Linux
+      - name: Linux & Systems
         level: Intermediate
         icon: fab fa-linux
-        keywords: "Raspberry Pi, Bash, Bash Scripting"
+        keywords: "Linux, Git, GitHub Actions (CI/CD), Docker"
 
-      - name: Web Development
-        level: Junior
-        icon: fas fa-laptop-code
-        keywords: "HTML, CSS, JavaScript"
-
-      - name: Arduino
+      - name: Hardware & Embedded
         level: Intermediate
         icon: fas fa-microchip
-        keywords: "C programming, Electrical Circuit Design"
+        keywords: "Raspberry Pi, Arduino, Electrical Circuit Design"
 
     Languages:
       - name: Persian
@@ -134,41 +129,37 @@ cv:
         summary: "Limited"
 
     Interests:
-      - name: Automation using Artificial Intelligence
-        icon: fas fa-robot
-        keywords: "Python, Machine Learning, Computer Vision"
+      - name: Machine Learning for Image Analysis & Computational Imaging
+        icon: fas fa-brain
+        keywords: "Machine Learning, Image Processing, Computational Imaging"
       
+      - name: Computer Vision for Scientific & Industrial Inspection
+        icon: fas fa-eye
+        keywords: "Computer Vision, Inspection, Industrial Applications"
+
+      - name: Image Processing
+        icon: fas fa-image
+        keywords: "Image Analysis, Signal Processing, Visualization"
+
       - name: Computer Science
         icon: fas fa-desktop
         keywords: "Programming, Algorithms, Data Structures"
-
-      - name: Meditation
-        icon: fas fa-spa
-        keywords: "Mindfulness, Relaxation, Stress Reduction"
-
-      - name: Nature
-        icon: fas fa-tree
-        keywords: "Camping, Environmental Conservation"
-
-      - name: Web Application Security
-        icon: fas fa-shield-alt
-        keywords: "Network, Programming"
       
 
     Certificates:
-      - name: <a href="https://certificates.cs50.io/a72d88d7-d288-4fb9-b7c0-e017542b0be1.pdf?size=a4">CS50 Understanding Technology</a>
-        date: 2023-12-01
+      - name: <a href="https://cs50.harvard.edu/certificates/9b679a6e-6bd0-4ea1-b956-f7473696e9d2">CS50's Introduction to Computer Science (CS50x)</a>
+        date: 2026-01-01
         issuer: Harvard University
         icon: fas fa-desktop
 
-      - name: <a href="https://openbadgefactory.com/v1/assertion/454d416de1e0ee727dd97fbd81fa89362c3d5230.html">Machine learning in Python with scikit-learn</a>
-        date: 2023-03-01
-        issuer: France Université Numérique
+      - name: <a href="https://openbadgefactory.com/v1/assertion/454d416de1e0ee727dd97fbd81fa89362c3d5230.html">Machine Learning in Python with scikit-learn</a>
+        date: 2023-01-01
+        issuer: Inria / France Université Numérique
         icon: fas fa-brain
 
       - name: <a href="https://www.coursera.org/account/accomplishments/certificate/BEYRHUN8XPLX">Machine Learning</a>
         date: 2022-01-01
-        issuer: Stanford University by Andrew Ng
+        issuer: Stanford University (Andrew Ng), Coursera
         icon: fas fa-square-root-alt
 
     Projects:
