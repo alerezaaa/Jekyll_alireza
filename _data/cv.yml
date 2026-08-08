@@ -30,9 +30,9 @@ cv:
         studyType: Master's degree
         start_date: 2020/10
         end_date: 2023/10
-        score: "16.70/20"
-        courses: "Artificial Intelligence, Finite Element Analysis, Advanced Control Systems"
         highlights:
+          - <b>Grade&#58;</b> 16.70/20
+          - <b>Highlighted Courses&#58;</b> Artificial Intelligence, Finite Element Analysis, Advanced Control Systems
           - <b>Thesis&#58;</b> Machine Learning–Based Image Reconstruction Refinement in Electrical Capacitance Tomography, an ill-posed inverse problem.
           - <b>Supervisor&#58;</b> <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>
           - <b>Co-supervisors&#58;</b> <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
@@ -46,8 +46,8 @@ cv:
         studyType: Bachelor's degree
         start_date: 2016/09
         end_date: 2020/09
-        score: "15.11/20"
         highlights:
+          - <b>Grade&#58;</b> 15.11/20
           - <b>Ranking&#58;</b> Ranked 9th in a cohort of 36 students.
           - Collaborated on the design and structural analysis of a scissor jack using SolidWorks and Ansys, achieving the highest score in the Mechanical Engineering Design course; following this success, the instructor suggested tackling a real-world problem, leading the team to develop a basil-harvesting machine concept for small-plot farms.
 
@@ -129,21 +129,17 @@ cv:
         summary: "Limited"
 
     Interests:
-      - name: Machine Learning for Image Analysis & Computational Imaging
+      - name: Machine Learning & Computational Imaging
         icon: fas fa-brain
-        keywords: "Machine Learning, Image Processing, Computational Imaging"
+        keywords: "Deep Learning, Image Reconstruction, Predictive Modeling"
       
-      - name: Computer Vision for Scientific & Industrial Inspection
+      - name: Computer Vision & Industrial Inspection
         icon: fas fa-eye
-        keywords: "Computer Vision, Inspection, Industrial Applications"
+        keywords: "Real-time Vision, Surface Analysis, Quality Control"
 
-      - name: Image Processing
-        icon: fas fa-image
-        keywords: "Image Analysis, Signal Processing, Visualization"
-
-      - name: Computer Science
-        icon: fas fa-desktop
-        keywords: "Programming, Algorithms, Data Structures"
+      - name: Embedded Systems & Automation
+        icon: fas fa-microchip
+        keywords: "Raspberry Pi, Arduino, Hardware Integration, IoT"
       
 
     Certificates:
