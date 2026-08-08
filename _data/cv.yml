@@ -54,7 +54,7 @@ cv:
     Experience:
       - company: <a href="https://ut.ac.ir/en"><b>University of Tehran</b></a>, Central Library, College of Agriculture and Natural Resources
         position: IT Support Specialist
-        location: Karaj, Alborz, Iran
+        location: Karaj, Iran
         start_date: 2024/06
         end_date: 2026/04
         summary: Amrieh — Iran's mandatory alternative to military service
@@ -67,7 +67,7 @@ cv:
     Volunteer:
       - company: <a href="https://tabrizu.ac.ir/en"><b>Tabriz University</b></a>, <a href="https://www.linkedin.com/company/precision-agriculture-research-team/posts/?feedView=all">Precision Agriculture group</a>
         position: Undergraduate Research Assistant, Precision Agriculture Lab
-        location: Tabriz, East Azerbaijan, Iran
+        location: Tabriz, Iran
         start_date: 2019/03
         end_date: 2021/04
         summary: Volunteer position, dept. of Biosystems Engineering, supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Prof. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Prof. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>. <br><i>(continued part-time remotely after Sep 2020)</i>
@@ -165,7 +165,7 @@ cv:
           - Developing a PyTorch-based pipeline for detecting cracks in concrete-surface images.
           - Using the Kaggle Surface Crack Detection dataset to build foundational computer-vision and deep-learning skills, with plans to extend the work toward pixel-level segmentation.
           - <b>Skills&#58;</b> PyTorch, Computer Vision, Deep Learning
-        start_date: 2026-07-01
+        start_date: 2026/07
         end_date: present
 
       - name: Shrimp Aquaculture Data-Entry App
@@ -174,7 +174,7 @@ cv:
           - Completed a Python/Kivy mobile application for recording shrimp-farming data and storing records locally in SQLite.
           - Implemented a Persian interface with RTL support and automated Android APK builds through GitHub Actions.
           - <b>Skills&#58;</b> Python, Kivy, SQLite, GitHub Actions
-        start_date: 2025-12-01
+        start_date: 2025/12
         end_date: present
 
 
