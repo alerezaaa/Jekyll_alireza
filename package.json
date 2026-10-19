@@ -3,9 +3,16 @@
     "lint:prettier": "prettier . --check",
     "lint:style-contract": "node test/style_contract.js",
     "test:visual": "playwright test --config test/visual/playwright.config.js",
-    "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots"
-  },
-  "devDependencies": {
+    "test:visual:update": "playwright test --config test/visual/playwright.config.js --update-snapshots",
+		"start": "node notion.mjs"
+	},
+	"dependencies": {
+		"@notionhq/client": "^2.2.13",
+		"dotenv": "^16.3.1",
+		"notion-to-md": "^3.1.1"
+	},
+	"type": "commonjs",
+	"devDependencies": {
     "@playwright/test": "^1.56.1",
     "@shopify/prettier-plugin-liquid": "^1.11.1",
     "pixelmatch": "^7.1.0",
