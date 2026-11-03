@@ -74,7 +74,8 @@ cv:
         end_date: 2021/04
         summary: Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Prof. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>. <br><i>(continued part-time remotely after Sep 2020)</i>
         highlights:
-          - Worked on a <b>laboratory prototype that uses a camera to find flat surface regions on pipes</b>, as a first design for automated pipe cutting. Set up and maintained the <b>Raspberry Pi platform</b> (Raspberry Pi OS, a Miniconda Python environment, the Pi camera) and contributed to the <b>OpenCV image-processing code</b>, which used classical methods. Designed the <b>hardware interface</b> between the Raspberry Pi, its camera and the machine electronics, and maintained the hardware and software.
+          - Worked on a <b>laboratory prototype that uses a camera to find flat surface regions on pipes</b>, as a first design for automated pipe cutting. Set up and maintained the <b>Raspberry Pi platform</b> (Raspberry Pi OS, a Miniconda Python environment, the Pi camera) and contributed to the <b>OpenCV image-processing code</b>, which used classical methods.
+          - Designed the <b>hardware interface</b> between the Raspberry Pi, its camera and the machine electronics, and maintained the hardware and software.
           - Built the control side of a <b>phone-based remote control for a silage-block-cutting machine</b>&#58; <b>Arduino firmware in C</b> and circuits (relays, resistors, capacitors) that drive the actuators. The Arduino ran its own Wi-Fi hotspot, and the machine worked only while it was receiving commands from the phone.
 
     # Awards:
