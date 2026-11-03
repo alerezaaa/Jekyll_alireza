@@ -164,7 +164,7 @@ cv:
           - Implemented a Persian interface with RTL support and automated Android APK builds through GitHub Actions.
           - <b>Skills&#58;</b> Python/Kivy, SQLite, GitHub Actions
         start_date: 2025/12
-        end_date: present
+        end_date: now
 
       # - name: Deep Learning for Surface Crack Segmentation
       #   summary: Independent project developing a PyTorch-based pipeline for detecting cracks in concrete-surface images.
