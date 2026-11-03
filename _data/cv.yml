@@ -3,8 +3,9 @@ cv:
   label: Machine Learning · Embedded Systems · Computer Vision
   email: dehghanzadeh98@gmail.com
   location: Tehran, Iran
+  website: https://alirezad.ir
   image: "ali.jpg"
-  summary: Resourceful engineer who enjoys coding, exploration, and solving real-world problems through creative, practical thinking. Especially interested in applied research and development, using machine learning, computer vision, and software tools to turn technical ideas into reliable, deployable solutions. Holds an M.Sc. from the University of Tehran with a thesis on machine learning for computational imaging — refinement of reconstructions of ECT, an ill-posed inverse problem. Also experienced in co-developing a real-time computer vision system deployed into industrial operation on embedded Linux, and currently building deep-learning pipelines for crack detection in surface imagery.
+  summary: Resourceful engineer who enjoys coding, exploration, and solving real-world problems through creative, practical thinking. Especially interested in applied research and development, using machine learning, computer vision, and software tools to turn technical ideas into reliable, deployable solutions. Holds an M.Sc. in Biosystems Engineering from the University of Tehran with a thesis on machine learning for computational imaging — building MLP-based refinements of Electrical Capacitance Tomography (ECT) reconstructions. Experienced in developing hardware and computer-vision prototypes on Raspberry Pi and Arduino, and building cross-platform Python/Kivy applications.
 
   social_networks:
     - network: X
@@ -31,13 +32,14 @@ cv:
         start_date: 2020/10
         end_date: 2023/10
         highlights:
-          - <b>Grade&#58;</b> 16.70/20
-          - <b>Highlighted Courses&#58;</b> Artificial Intelligence, Finite Element Analysis, Advanced Control Systems
-          - <b>Thesis&#58;</b> Machine Learning–Based Image Reconstruction Refinement in Electrical Capacitance Tomography, an ill-posed inverse problem.
-          - <b>Supervisor&#58;</b> <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>
-          - <b>Co-supervisors&#58;</b> <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
-          - Proposed and developed within a Port & Maritime Organization–funded ECT pipeline-monitoring project.
-          - Across separate best-performing configurations, test-set R² reached 0.87 and test-set RMSE was as low as 0.147.
+          - <b>Thesis&#58;</b> Development of a machine learning algorithm to improve image reconstruction in an electrical capacitance tomography system.
+          - Built an MLP-based refinement (Python, scikit-learn) of linear back-projection (LBP) and Tikhonov ECT reconstructions on about 4,800 simulated phantoms (577-element FEM mesh, 485 imaging elements).
+          - The best of about 2,800 configurations, chosen by cross-validation, reached R² = 0.906 and RMSE = 0.134 (normalised), against best R² of about 0.85 for logistic regression and gradient boosting and 0.53 for k-NN.
+          - <b>Selected Courses&#58;</b> Artificial Intelligence, Advanced Finite Element Method, Design and Analysis of Engineering Experiments, Computer-Aided Design (CAD), Automatic Control Systems, Advanced Instrumentation.
+          # - <b>Grade&#58;</b> 16.70/20
+          # - <b>Supervisor&#58;</b> <a href="https://scholar.google.com/citations?user=KnMXOMQAAAAJ&hl=en">Dr. Hossein Mousazadeh</a>
+          # - <b>Co-supervisors&#58;</b> <a href="https://scholar.google.com/citations?user=OjQxBngAAAAJ&hl=en">Dr. Soleiman Hosseinpour</a> <a href="https://www.linkedin.com/in/soleiman-hosseinpour-5856191ab/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>
+          # - Proposed and developed within a Port & Maritime Organization–funded ECT pipeline-monitoring project.
 
       - institution: Tabriz University
         location: Tabriz, Iran
@@ -47,37 +49,33 @@ cv:
         start_date: 2016/09
         end_date: 2020/09
         highlights:
-          - <b>Grade&#58;</b> 15.11/20
-          - <b>Ranking&#58;</b> Ranked 9th in a cohort of 36 students.
-          - Collaborated on the design and structural analysis of a scissor jack using SolidWorks and Ansys, achieving the highest score in the Mechanical Engineering Design course; following this success, the instructor suggested tackling a real-world problem, leading the team to develop a basil-harvesting machine concept for small-plot farms.
+          - <b>Course Project&#58;</b> Collaborated on the CAD design and structural finite-element analysis of a scissor jack (SolidWorks, Ansys), achieving the highest project score in the course. (Machine Elements Design II project)
+          - <b>Course Project&#58;</b> Team concept design of a mechanical harvester for small-plot farms, as a follow-up to the scissor-jack project in the following semester. (Design of Harvesting Machinery project)
+          - <b>Selected Courses&#58;</b> Computer Programming, Fundamentals of Electrical Engineering I & II, Machine Elements Design, Engineering Statistics, Differential Equations, Numerical Methods, Maintenance Engineering, Post-Harvest Technology and Storage, Industrial Drawing I & II (CAD).
+          # - <b>Grade&#58;</b> 15.11/20
+          # - <b>Ranking&#58;</b> Ranked 9th in a cohort of 36 students.
 
     Experience:
       - company: <a href="https://ut.ac.ir/en"><b>University of Tehran</b></a>, Central Library, College of Agriculture and Natural Resources
         position: IT Support Specialist
-        location: Karaj, Iran
+        location: Tehran, Iran
         start_date: 2024/06
         end_date: 2026/04
-        summary: Amrieh — Iran's mandatory alternative to military service
+        # summary: Amrieh — Iran's mandatory alternative to military service
         highlights:
-          - Built a semi-automated data-entry system in Google Apps Script, reducing manual paperwork for library staff.
-          - Provided IT and network support, and delivered training in common software tools and basic computer literacy to staff and students.
-
-
+          - Built a Google Apps Script tool that looks up each book by ISBN in WorldCat and fills a spreadsheet with its title, author, publisher and year. Entries were then checked by hand.
+          - Maintained the library website and gave IT and network support for library operations.
 
     Volunteer:
-      - company: <a href="https://tabrizu.ac.ir/en"><b>Tabriz University</b></a>, <a href="https://www.linkedin.com/company/precision-agriculture-research-team/posts/?feedView=all">Precision Agriculture group</a>
-        position: Undergraduate Research Assistant, Precision Agriculture Lab
+      - company: <a href="https://tabrizu.ac.ir/en"><b>Tabriz University</b></a>, <a href="https://www.linkedin.com/company/precision-agriculture-research-team/posts/?feedView=all">Precision Agriculture Lab</a>
+        position: Research Assistant - Volunteer
         location: Tabriz, Iran
         start_date: 2019/03
         end_date: 2021/04
-        summary: Volunteer position, dept. of Biosystems Engineering, supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Prof. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Prof. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>. <br><i>(continued part-time remotely after Sep 2020)</i>
+        summary: Supervised by <a href="https://www.researchgate.net/profile/Hossein-Navid">Prof. Hossein Navid</a> <a href="https://www.linkedin.com/in/hossein-navid-0915822a6/"><i class="fab fa-linkedin"></i></a> and <a href="https://scholar.google.dk/citations?user=c0Ee4oIAAAAJ&hl=en">Dr. Hadi Karimi</a> <a href="https://www.linkedin.com/in/hadi-karimi-77865b87/"><i class="fab fa-linkedin"></i></a>. <br><i>(continued part-time remotely after Sep 2020)</i>
         highlights:
-          - Co-developed a <b>real-time computer vision system for automated pipe cutting</b> by identifying flat surface regions, deployed in industrial operation and integrated with high-speed machinery.
-          - Designed and integrated the <b>hardware and electronic circuits</b> for the real-time vision system, including Raspberry Pi interfacing.
-          - Configured the <b>Raspberry Pi deployment end-to-end</b>, setting up the Linux environment, Python dependencies, and GPIO pin control for hardware communication.
-          - Collaborated on a <b>wireless remote-control system for a silage-block-cutting machine</b> to improve operator safety.
-          - Responsible for <b>electronic circuit design</b> and integration with pneumatic and hydraulic valve systems for precise actuation.
-          - Developed the <b>Arduino-based control firmware</b> and hardware-side logic for executing TCP/UDP commands.
+          - Worked on a <b>laboratory prototype that uses a camera to find flat surface regions on pipes</b>, as a first design for automated pipe cutting. Set up and maintained the <b>Raspberry Pi platform</b> (Raspberry Pi OS, a Miniconda Python environment, the Pi camera) and contributed to the <b>OpenCV image-processing code</b>, which used classical methods. Designed the <b>hardware interface</b> between the Raspberry Pi, its camera and the machine electronics, and maintained the hardware and software.
+          - Built the control side of a <b>phone-based remote control for a silage-block-cutting machine</b>&#58; <b>Arduino firmware in C</b> and circuits (relays, resistors, capacitors) that drive the actuators. The Arduino ran its own Wi-Fi hotspot, and the machine worked only while it was receiving commands from the phone.
 
     # Awards:
     #   # - title: Nobel Prize in Physics
@@ -98,25 +96,25 @@ cv:
     #   #   summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
     Skills:
-      - name: Python Programming
+      - name: Python & Software
         level: Advanced
         icon: fab fa-python
-        keywords: "PyTorch, Kivy, Scikit-learn, Pandas, NumPy, Flask, Jupyter"
+        keywords: "Python, scikit-learn, OpenCV, Kivy, SQLite, Google Apps Script"
 
       - name: Machine Learning
         level: Intermediate
         icon: fas fa-brain
-        keywords: "Supervised Learning, Cross-Validation, Feature Engineering, Deep Learning"
+        keywords: "MLP, Logistic Regression, Gradient Boosting, k-NN, Cross-Validation"
 
       - name: Linux & Systems
         level: Intermediate
         icon: fab fa-linux
-        keywords: "Linux, Git, GitHub Actions (CI/CD), Docker"
+        keywords: "Raspberry Pi OS, Linux, Miniconda, Git, GitHub Actions (CI/CD)"
 
-      - name: Hardware & Embedded
+      - name: Hardware, Embedded & CAD
         level: Intermediate
         icon: fas fa-microchip
-        keywords: "Raspberry Pi, Arduino, Electrical Circuit Design"
+        keywords: "Raspberry Pi, Arduino (C), Electronic Circuits, SolidWorks, Ansys (FEM)"
 
     Languages:
       - name: Persian
@@ -131,16 +129,15 @@ cv:
     Interests:
       - name: Machine Learning & Computational Imaging
         icon: fas fa-brain
-        keywords: "Deep Learning, Image Reconstruction, Predictive Modeling"
+        keywords: "Image Reconstruction, Inverse Problems, Predictive Modeling"
       
-      - name: Computer Vision & Industrial Inspection
+      - name: Computer Vision & Prototyping
         icon: fas fa-eye
-        keywords: "Real-time Vision, Surface Analysis, Quality Control"
+        keywords: "OpenCV, Surface Analysis, Automated Inspection"
 
       - name: Embedded Systems & Automation
         icon: fas fa-microchip
-        keywords: "Raspberry Pi, Arduino, Hardware Integration, IoT"
-      
+        keywords: "Raspberry Pi, Arduino, Hardware Integration, Actuator Control"
 
     Certificates:
       - name: <a href="https://cs50.harvard.edu/certificates/9b679a6e-6bd0-4ea1-b956-f7473696e9d2">CS50's Introduction to Computer Science (CS50x)</a>
@@ -159,30 +156,33 @@ cv:
         icon: fas fa-square-root-alt
 
     Projects:
-      - name: Deep Learning for Surface Crack Segmentation
-        summary: Independent project developing a PyTorch-based pipeline for detecting cracks in concrete-surface images.
-        highlights:
-          - Developing a PyTorch-based pipeline for detecting cracks in concrete-surface images.
-          - Using the Kaggle Surface Crack Detection dataset to build foundational computer-vision and deep-learning skills, with plans to extend the work toward pixel-level segmentation.
-          - <b>Skills&#58;</b> PyTorch, Computer Vision, Deep Learning
-        start_date: 2026/07
-        end_date: present
-
       - name: Shrimp Aquaculture Data-Entry App
-        summary: CS50x Final Project; first release of a broader aquaculture-management system. A Python/Kivy mobile application for recording shrimp-farming data and storing records locally in SQLite.
+        summary: CS50x Final Project; first release of a broader aquaculture-management system.
         highlights:
-          - Completed a Python/Kivy mobile application for recording shrimp-farming data and storing records locally in SQLite.
+          - Developed and released (v1.0) a Python/Kivy mobile application for recording shrimp-farming data and storing records locally in SQLite.
           - Implemented a Persian interface with RTL support and automated Android APK builds through GitHub Actions.
-          - <b>Skills&#58;</b> Python, Kivy, SQLite, GitHub Actions
+          - <b>Skills&#58;</b> Python/Kivy, SQLite, GitHub Actions
         start_date: 2025/12
         end_date: present
 
+      # - name: Deep Learning for Surface Crack Segmentation
+      #   summary: Independent project developing a PyTorch-based pipeline for detecting cracks in concrete-surface images.
+      #   highlights:
+      #     - Developing a PyTorch-based pipeline for detecting cracks in concrete-surface images.
+      #     - Using the Kaggle Surface Crack Detection dataset to build foundational computer-vision and deep-learning skills, with plans to extend the work toward pixel-level segmentation.
+      #     - <b>Skills&#58;</b> PyTorch, Computer Vision, Deep Learning
+      #   start_date: 2026/07
+      #   end_date: present
 
-    # References:
-    #   - name: Professor John Doe
-    #     icon: fa-solid fa-laptop
-    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    References:
+      - name: Dr. Soleiman Hosseinpour
+        icon: fas fa-user-tie
+        reference: "Professor of Biosystems Engineering, University of Tehran, Iran<br><b>Email&#58;</b> <a href='mailto:shosseinpour@ut.ac.ir'>shosseinpour@ut.ac.ir</a> | <b>Alt&#58;</b> <a href='mailto:slmn.hosseinpour@gmail.com'>slmn.hosseinpour@gmail.com</a>"
 
-    #   - name: Professor Jane Smith
-    #     icon: fa-solid fa-thumbtack
-    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Dr. Hadi Karimi
+        icon: fas fa-user-tie
+        reference: "Assistant Professor of Biosystems Engineering, Agricultural Engineering Research Institute, Iran<br><b>Email&#58;</b> <a href='mailto:h_karimi@areeo.ac.ir'>h_karimi@areeo.ac.ir</a> | <b>Alt&#58;</b> <a href='mailto:karimi.areeo@gmail.com'>karimi.areeo@gmail.com</a>"
+
+      - name: Dr. Atefeh Parvaresh Rizi
+        icon: fas fa-user-tie
+        reference: "Professor of Water Engineering, Director of the Central Library, College of Agriculture and Natural Resources, University of Tehran, Iran<br><b>Email&#58;</b> <a href='mailto:parvarsh@ut.ac.ir'>parvarsh@ut.ac.ir</a>"
